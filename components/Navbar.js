@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="nav-right">
         <Link href="/">About me</Link>
         <Link href="/">Resume</Link>
-        <Link href="/">#100DaysofCode</Link>
+        <Link href="/">#100DaysOfCode</Link>
         <Link href="/">Projects</Link>
       </div>
     </nav>
