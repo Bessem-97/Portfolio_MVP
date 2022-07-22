@@ -1,3 +1,7 @@
 export default function Heading() {
-  return <div>heading</div>;
+  return (
+    <header>
+      <h1>Kieran Gill</h1>
+    </header>
+  );
 }

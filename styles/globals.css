@@ -1,5 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600&family=Mulish:wght@400;600&display=swap');
 
-h1 {
+:root {
+  --main: #0d0222;
+  --secondary: #f2f3f8;
+  --main-button: #de1a1b;
+  --secondary-button: #0d0222;
+  --name-heading: #891d1e;
+}
+
+/* global styles */
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+p,
+a {
+  font-family: 'Mulish', sans-serif;
+}
+
+/* navbar */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+nav h3 {
+  display: inline;
+  font-size: 1.5rem;
+}
+nav a {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
 }
