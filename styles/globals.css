@@ -41,7 +41,8 @@ h2 {
   color: white;
   border-radius: 8px;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(13, 2, 24, 0.19) 0px 10px 20px,
+    rgba(13, 2, 34, 0.23) 0px 6px 6px;
 }
 .btn-main:hover {
   background-color: var(--name-heading);
@@ -140,5 +141,3 @@ main .toolbox {
   grid-column: span 6;
   grid-row: 400px;
 }
-
-/* shadow */
