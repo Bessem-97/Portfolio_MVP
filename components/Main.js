@@ -1,3 +1,9 @@
+import Image from 'next/image';
+import Dori from '../Images/dori - square.JPG';
+import Porto from '../Images/porto square.JPG';
+import Shirt from '../Images/shirt 2.JPG';
+import PicBar from '../Images/pic 4.JPG';
+
 export default function Main() {
   return (
     <main className="main-grid-container">
@@ -15,15 +21,41 @@ export default function Main() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure qui quae
           ad quas aliquam cumque sapiente fugit dolore doloremque quis.
         </p>
-        <button>View my Resume</button>
+        <button className="btn-main">View my Resume</button>
       </section>
-      <div className="main-picture-container">
-        <div className="profile-pics"></div>
-        <div className="profile-pics"></div>
-        <div className="profile-pics"></div>
-        <div className="profile-pics"></div>
-      </div>
-      <section className="100-days">
+      <section className="picture-container">
+        <div className="pic-grid">
+          <Image
+            className="profile-pics"
+            src={Shirt}
+            alt="shirt-pic"
+            height={200}
+            width={220}
+          />
+          <Image
+            className="profile-pics"
+            src={Porto}
+            alt="shirt-pic"
+            height={200}
+            width={220}
+          />
+          <Image
+            className="profile-pics"
+            src={PicBar}
+            alt="shirt-pic"
+            height={200}
+            width={220}
+          />
+          <Image
+            className="profile-pics"
+            src={Dori}
+            alt="shirt-pic"
+            height={200}
+            width={220}
+          />
+        </div>
+      </section>
+      <section className="hundred-days">
         <h2>#100DaysofCode</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -31,7 +63,7 @@ export default function Main() {
           similique autem, eum tempore est iusto dolore obcaecati asperiores
           dolorem nesciunt soluta ipsa!
         </p>
-        <button>Read my Diary</button>
+        <button className="btn-main">Read my Diary</button>
       </section>
       <section className="toolbox">
         <h2>My Toolbox</h2>
