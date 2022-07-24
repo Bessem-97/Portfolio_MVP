@@ -11,7 +11,7 @@
 
 /* global styles */
 body {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: 0 auto;
   background-color: var(--background);
 }
@@ -55,6 +55,8 @@ h2 {
 
 /* navbar */
 .nav-container {
+  max-width: 1400px;
+  margin: auto;
   position: sticky;
   top: 0px;
   z-index: 100;
@@ -92,6 +94,11 @@ header h1 {
   color: var(--name-heading);
 }
 /* main */
+.page-width {
+  max-width: 1400px;
+  margin: auto;
+}
+
 .main-grid-container {
   width: 85%;
   margin: 0 auto;
@@ -99,7 +106,7 @@ header h1 {
   grid-template-columns: repeat(10, 1fr);
   gap: 1.8rem;
 }
-section {
+.top-section {
   margin-top: 1.5rem;
   background-color: var(--secondary);
   border-radius: 8px;
@@ -156,6 +163,39 @@ main .toolbox-grid-container {
   gap: 0.8rem;
   justify-content: center;
 }
-main .toolbox-grid-container > .icon {
-  /* background-color: red; */
+
+/* project card */
+.projects-background-settings {
+  background-color: var(--secondary);
+  margin-top: 3rem;
+  box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
+    rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
+}
+.projects-width {
+  width: 85%;
+  margin: auto;
+}
+.projects-width h2 {
+  padding: 1rem;
+}
+section .project-grid-container {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 2rem;
+}
+
+.project-card-standard {
+  /* justify-self: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card-top-standard {
+  /* grid-column: span 2; */
+}
+.project-image {
+  width: 500px;
+  border-radius: 8px;
 }
