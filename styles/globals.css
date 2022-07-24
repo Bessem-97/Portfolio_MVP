@@ -38,7 +38,7 @@ h2 {
   background-color: var(--main-button);
   font-family: 'Edu VIC WA NT Beginner', cursive;
   font-size: 1.2rem;
-  padding: 0.6rem 0.9rem;
+  padding: 0.6rem 1.5rem;
   color: white;
   border-radius: 8px;
   border: none;
@@ -52,18 +52,44 @@ h2 {
 .btn-main:active {
   box-shadow: none;
 }
+.btn-secondary {
+  background-color: var(--secondary-button);
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.5rem;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  box-shadow: rgba(13, 2, 24, 0.19) 0px 10px 20px,
+    rgba(13, 2, 34, 0.23) 0px 6px 6px;
+  margin-top: 1rem;
+}
+.btn-secondary:hover {
+  background-color: #31224c;
+}
+.btn-secondary:active {
+  box-shadow: none;
+}
 
 /* navbar */
-.nav-container {
-  max-width: 1400px;
-  margin: auto;
+.nav-full-width {
+  width: 100%;
+  border-bottom: 1px solid var(--secondary-button);
+  background-color: var(--background);
   position: sticky;
   top: 0px;
   z-index: 100;
+}
+.nav-container {
+  max-width: 1400px;
+  margin: auto;
+  /* position: sticky;
+  top: 0px;
+  z-index: 100; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--secondary-button);
+
   padding: 1rem;
   background-color: var(--background);
 }
@@ -162,8 +188,12 @@ main .toolbox-grid-container {
   grid-template-columns: repeat(6, 1fr);
   gap: 0.8rem;
   justify-content: center;
+  padding: 1rem 0.5rem;
 }
-
+.icon {
+  max-width: 90px;
+  max-height: 90px;
+}
 /* project card */
 .projects-background-settings {
   background-color: var(--secondary);
@@ -182,7 +212,8 @@ section .project-grid-container {
   width: 85%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
 
   gap: 2rem;
 }
@@ -191,11 +222,34 @@ section .project-grid-container {
   /* justify-self: center; */
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
+    rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
+}
+.card-bottom-standard {
+  background-color: var(--background);
+  grid-column: span 2;
+  border-radius: 0 0 8px 8px;
+  padding: 1rem 1.5rem;
+}
+.card-bottom-standard h3 {
+  margin: 0px 0px;
+  font-size: 1.8rem;
 }
 .card-top-standard {
-  /* grid-column: span 2; */
+  grid-column: span 2;
+  border-radius: 8px 8px 0 0;
 }
-.project-image {
-  width: 500px;
-  border-radius: 8px;
+
+.card-top-standard img {
+  min-width: 100%;
+  max-height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.button-container {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 8%;
 }
