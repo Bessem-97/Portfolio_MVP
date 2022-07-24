@@ -3,6 +3,10 @@ import Dori from '../Images/dori - square.JPG';
 import Porto from '../Images/porto square.JPG';
 import Shirt from '../Images/shirt 2.JPG';
 import PicBar from '../Images/pic 4.JPG';
+import HTML from '../Images/icons/akar-icons_html-fill.png';
+import CSS from '../Images/icons/akar-icons_html-fill.png';
+import JS from '../Images/icons/Vector.png';
+import React from '../Images/icons/bxl_react.png';
 
 export default function Main() {
   return (
@@ -70,6 +74,18 @@ export default function Main() {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vitae!
         </p>
+        <div className="toolbox-grid-container">
+          <Image
+            className="icon"
+            src={HTML}
+            alt="HTML icon"
+            // width={90}
+            // height={90}
+          ></Image>
+          <Image className="icon" src={CSS} alt="CSS icon"></Image>
+          <Image className="icon" src={JS} alt="JS icon"></Image>
+          <Image className="icon" src={React} alt="React icon"></Image>
+        </div>
       </section>
     </main>
   );

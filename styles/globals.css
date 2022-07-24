@@ -147,3 +147,11 @@ main .toolbox {
   grid-column: span 6;
   grid-row: 400px;
 }
+
+/* toolbox */
+section .toolbox-grid-container {
+  grid-template-columns: repeat(6, 1fr);
+}
+section .toolbox-grid-container .icon {
+  /* background-color: red; */
+}
