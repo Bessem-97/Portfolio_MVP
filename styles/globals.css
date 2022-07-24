@@ -11,7 +11,7 @@
 
 /* global styles */
 body {
-  width: 90%;
+  max-width: 1400px;
   margin: 0 auto;
   background-color: var(--background);
 }
@@ -23,6 +23,7 @@ h4 {
   font-family: 'Edu VIC WA NT Beginner', cursive;
   color: var(--main);
 }
+
 p,
 a {
   font-family: 'Mulish', sans-serif;
@@ -43,6 +44,7 @@ h2 {
   border: none;
   box-shadow: rgba(13, 2, 24, 0.19) 0px 10px 20px,
     rgba(13, 2, 34, 0.23) 0px 6px 6px;
+  margin-top: 1rem;
 }
 .btn-main:hover {
   background-color: var(--name-heading);
@@ -53,11 +55,15 @@ h2 {
 
 /* navbar */
 .nav-container {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid var(--secondary-button);
   padding: 1rem;
+  background-color: var(--background);
 }
 nav h3 {
   display: inline;
@@ -127,7 +133,7 @@ main .picture-container {
   /* margin: auto; */
   gap: 1.5rem;
 }
-.profile-pics {
+main .profile-pics {
   border-radius: 8px;
   box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
     rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
