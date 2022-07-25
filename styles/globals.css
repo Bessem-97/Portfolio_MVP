@@ -74,7 +74,6 @@ h2 {
 /* navbar */
 .nav-full-width {
   width: 100%;
-  border-bottom: 1px solid var(--secondary-button);
   background-color: var(--background);
   position: sticky;
   top: 0px;
@@ -83,6 +82,7 @@ h2 {
 .nav-container {
   max-width: 1400px;
   margin: auto;
+  border-bottom: 1px solid var(--secondary-button);
   /* position: sticky;
   top: 0px;
   z-index: 100; */
@@ -195,11 +195,13 @@ main .toolbox-grid-container {
   max-height: 90px;
 }
 /* project card */
+
 .projects-background-settings {
   background-color: var(--secondary);
   margin-top: 3rem;
   box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
     rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
+  padding-bottom: 3rem;
 }
 .projects-width {
   width: 85%;

@@ -2,6 +2,7 @@
 import Heading from '../components/Heading';
 import Navbar from '../components/Navbar';
 import Main from '../components/Main';
+import Contact from '../components/Contact';
 
 import Projects from '../components/Projects';
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Heading />
       <Main />
       <Projects />
+      <Contact />
     </div>
   );
 }
