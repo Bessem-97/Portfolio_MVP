@@ -8,7 +8,9 @@ export default function Contact() {
           name="contact"
           method="POST"
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
         >
+          <input type="hidden" name="contact me" value="Contact me" />
           <label htmlFor="Name">Name </label>
           <input type="text" id="Name" name="name" />
 
