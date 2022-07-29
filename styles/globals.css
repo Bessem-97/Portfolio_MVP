@@ -191,8 +191,8 @@ main .toolbox-grid-container {
   padding: 1rem 0.5rem;
 }
 .icon {
-  max-width: 90px;
-  max-height: 90px;
+  max-width: 70px;
+  max-height: 70px;
 }
 /* project card */
 
@@ -257,4 +257,4 @@ section .project-grid-container {
   justify-content: flex-start;
   gap: 8%;
 }
-/* dfd */
+/* form */
