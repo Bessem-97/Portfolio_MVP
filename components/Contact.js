@@ -9,17 +9,26 @@ export default function Contact() {
           method="POST"
           data-netlify="true"
         >
-          <label htmlFor="Name">Name </label>
+          <label htmlFor="Name" name="name">
+            Name{' '}
+          </label>
           <input type="text" id="Name" />
 
-          <label htmlFor="Email">Email </label>
+          <label htmlFor="Email" name="email">
+            Email{' '}
+          </label>
           <input type="text" id="Email" />
 
-          <label htmlFor="Subject">Subject</label>
+          <label htmlFor="Subject" name="subject">
+            Subject
+          </label>
 
           <input type="text" id="Subject" />
 
-          <label htmlFor="Message"> Message</label>
+          <label htmlFor="Message" name="message">
+            {' '}
+            Message
+          </label>
 
           <textarea id="Message" />
           <button className="btn-main form-button" type="submit">
