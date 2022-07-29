@@ -9,7 +9,7 @@ export default function Contact() {
           method="POST"
           data-netlify="true"
         >
-          <input type="hidden" name="contact" value="contact" />
+          <input type="hidden" name="Contact me" value="contact" />
           <label htmlFor="name">Name </label>
           <input type="text" id="name" name="name" />
 
