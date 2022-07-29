@@ -258,3 +258,71 @@ section .project-grid-container {
   gap: 8%;
 }
 /* form */
+.contact {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+form input[type='text'],
+form input[type='email'],
+form textarea {
+  /* display: inline-block; */
+  box-sizing: border-box;
+  width: 80%;
+  padding: 0.7rem 1.2rem;
+  margin: 0.5rem 0;
+  /* margin-left: 1.2rem; */
+  font-family: 'Mulish', sans-serif;
+  background: #ffffff;
+  border: none;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+form textarea {
+  min-height: 300px;
+  font-family: 'Mulish', sans-serif;
+  /*max-width: 500px;
+  min-width: 500px; */
+  margin-left: 20px;
+}
+form label {
+  color: var(--secondary-button);
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.contact-form {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  /* color: var(--secondary-button); */
+  background-color: var(--secondary);
+  border-radius: 8px;
+}
+.contact-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.form-button {
+  /* background-color: var(--main-button);
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.5rem;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  box-shadow: rgba(13, 2, 24, 0.19) 0px 10px 20px,
+    rgba(13, 2, 34, 0.23) 0px 6px 6px;
+  margin-top: 1rem; */
+  width: 20%;
+  margin-left: 20px;
+}
