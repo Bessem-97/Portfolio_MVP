@@ -8,22 +8,21 @@ export default function Contact() {
           name="contact"
           method="POST"
           data-netlify="true"
-          data-netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="contact me" value="Contact me" />
-          <label htmlFor="Name">Name </label>
-          <input type="text" id="Name" name="name" />
+          <input type="hidden" name="contact" value="contact" />
+          <label htmlFor="name">Name </label>
+          <input type="text" id="name" name="name" />
 
-          <label htmlFor="Email">Email </label>
-          <input type="text" id="Email" name="email" />
+          <label htmlFor="email">Email </label>
+          <input type="text" id="email" name="email" />
 
-          <label htmlFor="Subject">Subject</label>
+          <label htmlFor="subject">Subject</label>
 
-          <input type="text" id="Subject" name="subject" />
+          <input type="text" id="subject" name="subject" />
 
-          <label htmlFor="Message">Message</label>
+          <label htmlFor="message">Message</label>
 
-          <textarea id="Message" name="message" />
+          <textarea id="message" name="message" />
           <button className="btn-main form-button" type="submit">
             Submit
           </button>
