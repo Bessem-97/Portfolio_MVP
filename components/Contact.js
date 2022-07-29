@@ -22,7 +22,9 @@ export default function Contact() {
           <label htmlFor="Message"> Message</label>
 
           <textarea id="Message" />
-          <button className="btn-main form-button">Submit</button>
+          <button className="btn-main form-button" type="submit">
+            Submit
+          </button>
         </form>
         <section>
           <h2>Right</h2>

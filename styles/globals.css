@@ -283,8 +283,8 @@ form textarea {
 form textarea {
   min-height: 300px;
   font-family: 'Mulish', sans-serif;
-  /*max-width: 500px;
-  min-width: 500px; */
+  max-width: 600px;
+  min-width: 400px;
   margin-left: 20px;
 }
 form label {
