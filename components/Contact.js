@@ -11,7 +11,7 @@ export default function Contact() {
           action="/success"
           // data-netlify="true"
         >
-          <input type="hidden" name="Contact-me" value="contact" />
+          <input type="hidden" name="contact-me" value="contact" />
           <label htmlFor="yourname">Name </label>
           <input type="text" id="yourname" name="name" />
 
