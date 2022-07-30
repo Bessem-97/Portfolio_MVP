@@ -3,15 +3,7 @@ export default function Contact() {
     <div className="contact">
       <h2>Contact Me </h2>
       <div className="contact-grid-container">
-        <form
-          className="contact-form"
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          action="/success"
-          // data-netlify="true"
-        >
-          <input type="hidden" name="contact-me" value="contact" />
+        <form>
           <label htmlFor="yourname">Name </label>
           <input type="text" id="yourname" name="name" />
 
