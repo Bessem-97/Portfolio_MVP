@@ -7,6 +7,8 @@ export default function Contact() {
           className="contact-form"
           name="contact"
           method="POST"
+          data-netlify="true"
+          action="/success"
           // data-netlify="true"
         >
           <input type="hidden" name="Contact-me" value="contact" />
@@ -21,7 +23,7 @@ export default function Contact() {
 
           <label htmlFor="yourmessage">Message</label>
 
-          <textarea id="message" name="message" />
+          <textarea id="yourmessage" name="message" />
           <button className="btn-main form-button" type="submit">
             Submit
           </button>
