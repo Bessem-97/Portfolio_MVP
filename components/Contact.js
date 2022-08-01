@@ -3,14 +3,9 @@ import { useForm, ValidationError } from '@formspree/react';
 export default function Contact() {
   const [state, handleSubmit] = useForm('mzbwprql');
 
-  // if (state.succeeded) {
-  //   return <p>Thanks for your submission!</p>;
-  // }
-
   return (
     <div className="contact">
-      <h2>Contact Me </h2>
-      <div className="contact-grid-container">
+      <div className="contact-grid-container" id="form">
         <form className="contact-form" onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
           <input id="name" type="text" name="messager-name" />
@@ -53,7 +48,7 @@ export default function Contact() {
         </form>
 
         <section>
-          <h2>Right side of grid</h2>
+          <h2>Contact Me </h2>
           <p> do you have any jobs, mate?</p>
           <p>if so, please contact me here</p>
           <p>add linked in etc here</p>
