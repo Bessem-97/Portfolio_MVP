@@ -1,29 +1,38 @@
 import Image from 'next/image';
 import PlaceholderImg from '../Images/placeholder- projects.JPG';
 
-export default function Card() {
+export default function Card({
+  image,
+  projectTitle,
+  description,
+  linkToSite,
+  linkToRepo,
+}) {
   return (
     <div className="project-card-standard">
       <div className="card-top-standard">
         <Image
           className="project-image"
-          src={PlaceholderImg}
+          src={image}
           alt="project"
           width={800}
-          height={300}
+          height={400}
         ></Image>
       </div>
       <div className="card-bottom-standard">
-        <h3>Project Title</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat,
-          reiciendis cumque veniam ipsum sed labore. A nulla veritatis
-          perspiciatis dolorem, accusantium, doloremque minus numquam suscipit
-          deleniti ducimus ipsum totam officia.
-        </p>
+        <h3>{projectTitle}</h3>
+        <p>{description}</p>
         <div className="button-container">
-          <button className="btn-main">Visit Site</button>
-          <button className="btn-secondary">Github repo</button>
+          <button className="btn-main">
+            <a href={linkToSite} target="_blank" rel="noreferrer">
+              Visit Site
+            </a>
+          </button>
+          <button className="btn-secondary">
+            <a href={linkToRepo} target="_blank" rel="noreferrer">
+              Visit Repo
+            </a>
+          </button>
         </div>
       </div>
     </div>

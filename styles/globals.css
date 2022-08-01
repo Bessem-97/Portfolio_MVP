@@ -27,7 +27,8 @@ h4 {
 p,
 a {
   font-family: 'Mulish', sans-serif;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
 }
 h2 {
   font-size: 2.1rem;
@@ -45,6 +46,12 @@ h2 {
   box-shadow: rgba(13, 2, 24, 0.19) 0px 10px 20px,
     rgba(13, 2, 34, 0.23) 0px 6px 6px;
   margin-top: 1rem;
+}
+a {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
 }
 .btn-main:hover {
   background-color: var(--name-heading);
@@ -329,4 +336,5 @@ form label {
   margin-top: 1rem; */
   width: 20%;
   margin-left: 20px;
+  /* color: white; */
 }
