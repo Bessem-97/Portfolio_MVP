@@ -67,9 +67,15 @@ export default function Contact() {
           </p>
           <p>07745391002</p>
           <p className="linkedIn-ptag">
-            <b>LinkedIn</b>
+            <b>LinkedIn:</b>
           </p>
-          <Image className="LinkedIn" src={LinkedIn} alt="Linked in" />
+          <a
+            href="https://www.linkedin.com/in/kieran-gill/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image className="LinkedIn" src={LinkedIn} alt="Linked in" />
+          </a>
         </section>
       </div>
     </div>

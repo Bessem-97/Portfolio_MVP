@@ -122,6 +122,7 @@ nav a {
   color: var(--main);
   font-weight: 600;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -322,6 +323,8 @@ form label {
   /* color: var(--secondary-button); */
   background-color: var(--secondary);
   border-radius: 8px;
+  box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
+    rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
 }
 .contact-grid-container {
   margin: 80px auto;
@@ -351,16 +354,20 @@ form label {
   /* color: white; */
 }
 
-.linkedIn {
-  display: inline-block;
-  margin-top: 0.9rem;
-}
-
 .contact-me-info h2,
-p,
-img {
+.contact-me-info p,
+.contact-me-info img {
   margin-top: 1.8rem;
+  width: 80%;
+}
+.contact-me-info h2 {
+  font-size: 2.8rem;
 }
 .linkedIn-ptag {
   margin-bottom: 2rem;
+}
+
+.linkedIn {
+  display: inline-block;
+  margin-top: 0.9rem;
 }

@@ -181,6 +181,7 @@ export default function Main() {
             ></Image>
           </div>
         </section>
+        <div id="projects"></div>
       </main>
     </div>
   );
