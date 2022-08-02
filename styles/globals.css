@@ -34,6 +34,12 @@ a {
   line-height: 1.5rem;
   font-size: 1.1rem;
 }
+b {
+  font-weight: 800;
+  font-family: 'Mulish', sans-serif;
+  line-height: 1.5rem;
+  font-size: 1.4rem;
+}
 h2 {
   font-size: 2.1rem;
   margin-top: 0.5rem;
@@ -324,6 +330,7 @@ form label {
   max-width: 80%;
   /* margin: 80px 0; */
   gap: 50px;
+  align-items: center;
 }
 /* .contact {
   margin: auto;
@@ -342,4 +349,18 @@ form label {
   width: 20%;
   margin-left: 20px;
   /* color: white; */
+}
+
+.linkedIn {
+  display: inline-block;
+  margin-top: 0.9rem;
+}
+
+.contact-me-info h2,
+p,
+img {
+  margin-top: 1.8rem;
+}
+.linkedIn-ptag {
+  margin-bottom: 2rem;
 }

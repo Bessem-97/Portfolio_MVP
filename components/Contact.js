@@ -1,3 +1,5 @@
+import LinkedIn from '../public/icomoon-free_linkedin.png';
+import Image from 'next/image';
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {
@@ -47,11 +49,27 @@ export default function Contact() {
           )}
         </form>
 
-        <section>
+        <section className="contact-me-info">
           <h2>Contact Me </h2>
-          <p> do you have any jobs, mate?</p>
-          <p>if so, please contact me here</p>
-          <p>add linked in etc here</p>
+          <p> Encourage them to get in touch with me</p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+            itaque ducimus aliquam esse provident quisquam deleniti quis
+            exercitationem quia dolorum?
+          </p>
+          <p>
+            {' '}
+            <b>Direct email:</b>
+          </p>
+          <p>kieran.webdevelopment@gmail.com</p>
+          <p>
+            <b>Telephone:</b>
+          </p>
+          <p>07745391002</p>
+          <p className="linkedIn-ptag">
+            <b>LinkedIn</b>
+          </p>
+          <Image className="LinkedIn" src={LinkedIn} alt="Linked in" />
         </section>
       </div>
     </div>
