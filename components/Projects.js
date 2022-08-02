@@ -29,7 +29,7 @@ const projects = [
     projectTitle: 'Band-its',
     description:
       'Vel necessitatibus laboriosam ut consequatur aliquid quo quisquam mollitia ea modi natus nam error odio est nostrum minus id voluptatem nostrum. Qui dolor Quis est placeat facere eos itaque sapiente ea Quis perferendis aut alias suscipit.',
-    linkToSite: `https://kieran-gill-recipe-site.vercel.app/`,
+    linkToSite: `https://kieran-gill-week8-hackathon-bandits.vercel.app/`,
     linkToRepo: `https://github.com/KieranWebDev/w8d5_react-api-hackathon-kieran-and-glyn-week-8`,
   },
   {
@@ -60,7 +60,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="projects-background-settings">
+    <section className="projects-background-settings" id="projects">
       <div className="projects-width">
         <h2>My Projects</h2>
         <div className="project-grid-container">

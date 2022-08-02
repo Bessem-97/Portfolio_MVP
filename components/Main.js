@@ -78,7 +78,15 @@ export default function Main() {
             architecto, similique autem, eum tempore est iusto dolore obcaecati
             asperiores dolorem nesciunt soluta ipsa!
           </p>
-          <button className="btn-main">Read my Diary</button>
+          <button className="btn-main">
+            <a
+              href="https://github.com/KieranWebDev/100-Days-Of-Code-Diary-School-of-Code-Bootcamp-Diary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Read my Diary
+            </a>
+          </button>
         </section>
         <section className="top-section toolbox">
           <h2>My Toolbox</h2>

@@ -1,6 +1,6 @@
 export default function Heading() {
   return (
-    <header>
+    <header id="about-me">
       <h1 className="fixed-heading">Kieran Gill</h1>
       <div>
         <p className="heading-p">

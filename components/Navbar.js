@@ -6,13 +6,19 @@ export default function Navbar() {
       <nav className="nav-container">
         <div className="nav-left">
           <h3>Kieran Gill</h3>
-          <Link href="/">Contact me</Link>
+          <Link href="#contact">Contact me</Link>
         </div>
         <div className="nav-right">
-          <Link href="/">About me</Link>
+          <Link href="#about-me">About me</Link>
           <Link href="/">Resume</Link>
-          <Link href="/">#100DaysofCode</Link>
-          <Link href="/">Projects</Link>
+          <a
+            href="https://github.com/KieranWebDev/100-Days-Of-Code-Diary-School-of-Code-Bootcamp-Diary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            #100DaysofCode
+          </a>
+          <Link href="#projects">Projects</Link>
         </div>
       </nav>
     </div>

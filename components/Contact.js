@@ -4,7 +4,7 @@ export default function Contact() {
   const [state, handleSubmit] = useForm('mzbwprql');
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-grid-container" id="form">
         <form className="contact-form" onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
