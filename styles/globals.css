@@ -9,6 +9,10 @@
   --background: #f2f3f8;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* global styles */
 body {
   /* max-width: 1400px; */
@@ -243,6 +247,7 @@ section .project-grid-container {
   border-radius: 0 0 8px 8px;
   padding: 1rem 1.5rem;
 }
+
 .card-bottom-standard h3 {
   margin: 0px 0px;
   font-size: 1.8rem;

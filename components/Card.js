@@ -3,7 +3,7 @@ import PlaceholderImg from '../Images/placeholder- projects.JPG';
 
 export default function Card({
   image,
-  projectTitle,
+  title,
   description,
   linkToSite,
   linkToRepo,
@@ -20,7 +20,7 @@ export default function Card({
         ></Image>
       </div>
       <div className="card-bottom-standard">
-        <h3>{projectTitle}</h3>
+        <h3>{title}</h3>
         <p>{description}</p>
         <div className="button-container">
           <button className="btn-main">
