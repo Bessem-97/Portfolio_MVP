@@ -247,15 +247,18 @@ section .project-grid-container {
 
 .project-card-standard {
   /* justify-self: center; */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-self: center;
+  /* display: grid;
+  grid-template-columns: 1fr; */
+  /* justify-self: center; */
+  display: flex;
+  flex-direction: column;
+
   box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
     rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
 }
 .card-bottom-standard {
   background-color: var(--background);
-  grid-column: span 2;
+  /* grid-column: span 2; */
   border-radius: 0 0 8px 8px;
   padding: 1rem 1.5rem;
 }
@@ -265,7 +268,7 @@ section .project-grid-container {
   font-size: 1.8rem;
 }
 .card-top-standard {
-  grid-column: span 2;
+  /* grid-column: span 2; */
   border-radius: 8px 8px 0 0;
 }
 
@@ -364,6 +367,9 @@ form label {
 .contact-me-info img {
   margin-top: 1.8rem;
   width: 80%;
+}
+.contact-me-info b {
+  color: var(--secondary-button);
 }
 .contact-me-info h2 {
   font-size: 2.8rem;
