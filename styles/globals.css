@@ -214,12 +214,17 @@ main .toolbox-grid-container {
 }
 /* project card */
 
+.projects-heading {
+  padding-top: 4rem;
+}
+
 .projects-background-settings {
   background-color: var(--secondary);
   margin-top: 3rem;
   box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
     rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
   padding-bottom: 3rem;
+  padding-top: 1.4rem;
 }
 .projects-width {
   width: 85%;

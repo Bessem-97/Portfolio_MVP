@@ -52,7 +52,7 @@ const projects = [
     description:
       'Vel necessitatibus laboriosam ut consequatur aliquid quo quisquam mollitia ea modi natus nam error odio est nostrum minus id voluptatem nostrum. Qui dolor Quis est placeat facere eos itaque sapiente ea Quis perferendis aut alias suscipit.',
     linkToSite: `https://untrodden.netlify.app/`,
-    linkToRepo: `https://github.com/KieranWebDev/Portfolio-MVP`,
+    linkToRepo: `https://github.com/SchoolOfCode/final-project_front-end-untrodden`,
   },
 ];
 export default projects;

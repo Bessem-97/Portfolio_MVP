@@ -4,9 +4,9 @@ import projects from '../data/data';
 
 export default function Projects() {
   return (
-    <section className="projects-background-settings" >
+    <section className="projects-background-settings">
       <div className="projects-width">
-        <h2>My Projects</h2>
+        <h2 className="projects-heading">My Projects</h2>
         <div className="project-grid-container">
           {projects.map((project) => (
             <Card
@@ -34,7 +34,6 @@ export default function Projects() {
         </div>
       </div>
       <div id="contact"></div>
-   
     </section>
   );
 }
