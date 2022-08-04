@@ -98,7 +98,7 @@ a {
 }
 .nav-container {
   max-width: 1400px;
-  margin: auto;
+  margin: 0 auto;
   border-bottom: 1px solid var(--secondary-button);
   /* position: sticky;
   top: 0px;
@@ -138,12 +138,13 @@ header h1 {
   color: var(--name-heading);
 }
 /* main */
-.page-width {
+/* .page-width {
   max-width: 1400px;
   margin: auto;
-}
+} */
 
 .main-grid-container {
+  max-width: 1400px;
   width: 85%;
   margin: 0 auto;
   display: grid;
@@ -359,6 +360,7 @@ form label {
   margin-top: 1rem; */
   width: 20%;
   margin-left: 20px;
+  cursor: pointer;
   /* color: white; */
 }
 
@@ -381,4 +383,42 @@ form label {
 .linkedIn {
   display: inline-block;
   margin-top: 0.9rem;
+}
+@media screen and (max-width: 1600px) {
+  .projects-width {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  section .project-grid-container {
+    width: 95%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 950px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main-grid-container {
+    width: 95%;
+  }
+  main .about-me {
+    grid-column: span 10;
+  }
+  main .picture-container {
+    grid-column: span 10;
+  }
+  main .hundred-days {
+    grid-column: span 10;
+    grid-row: 400px;
+  }
 }
