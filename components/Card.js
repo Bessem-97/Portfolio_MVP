@@ -23,12 +23,12 @@ export default function Card({
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="button-container">
-          <button className="btn-main">
+          <button className="btn-project-main">
             <a href={linkToSite} target="_blank" rel="noreferrer">
               Visit Site
             </a>
           </button>
-          <button className="btn-secondary">
+          <button className="btn-project-secondary">
             <a href={linkToRepo} target="_blank" rel="noreferrer">
               Visit Repo
             </a>
