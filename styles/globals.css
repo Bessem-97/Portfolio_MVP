@@ -56,6 +56,13 @@ h2 {
     rgba(13, 2, 34, 0.23) 0px 6px 6px;
   margin-top: 1rem;
 }
+.btn-main:hover {
+  background-color: var(--name-heading);
+  cursor: pointer;
+}
+.btn-main:active {
+  box-shadow: none;
+}
 
 .btn-project-main {
   background-color: var(--main-button);
@@ -81,6 +88,7 @@ a {
 .btn-project-main:active {
   box-shadow: none;
 }
+
 .btn-project-secondary {
   background-color: var(--secondary-button);
   font-family: 'Edu VIC WA NT Beginner', cursive;
