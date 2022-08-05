@@ -483,6 +483,9 @@ form label {
   main p {
     width: 100%;
   }
+  .projects-background-settings {
+    margin-top: 2rem;
+  }
   .project-card-standard {
     grid-column: span 2;
   }
