@@ -165,7 +165,7 @@ header h1 {
 
 .main-grid-container {
   max-width: 1400px;
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
