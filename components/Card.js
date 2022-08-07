@@ -22,6 +22,7 @@ export default function Card({
       <div className="card-bottom-standard">
         <h3>{title}</h3>
         <p>{description}</p>
+
         <div className="button-container">
           <button className="btn-project-main">
             <a href={linkToSite} target="_blank" rel="noreferrer">

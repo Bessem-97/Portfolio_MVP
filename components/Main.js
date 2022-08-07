@@ -25,17 +25,27 @@ export default function Main() {
         <section className="top-section about-me">
           <h2>About me</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
-            facilis impedit ab doloremque necessitatibus architecto fugiat
-            commodi optio voluptatum, debitis, blanditiis quod ducimus iste
-            incidunt, distinctio laborum excepturi! Possimus delectus omnis,
-            doloremque quia nostrum nihil vel eaque accusamus et asperiores iure
-            ab recusandae in debitis, quaerat ut incidunt velit nemo!
+            I began coding during the COVID lockdown and quickly fell in love
+            with it after I managed to center my first div. Since then I have
+            been on an exciting learning journey full of exhilarating peaks and
+            character-building troughs. I love the joys of sharing the wins and
+            small triumphs with my teams and coding partners, as we move towards
+            our common goals.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure qui
-            quae ad quas aliquam cumque sapiente fugit dolore doloremque quis.
+            My hobbies include running, resistance training, reading, gaming and
+            playing fetch with my favourite canine, Dori. I enjoy travelling and
+            exploring new worlds, but to be honest, as I get deeper into my
+            thirties, my perfect evening simply involves lounging on a sofa
+            whilst watching a good movie with my girlfriend.
           </p>
+          {/* <p>
+            My hobbies include running, resistance training, reading, gaming and
+            playing fetch with my favourite canine, Dori. I enjoy travelling and
+            exploring new worlds, but to be honest, as I get deeper into my
+            thirties, my perfect evening simply involves lounging on a sofa
+            whilst watching a good movie with my girlfriend.
+          </p> */}
           <button className="btn-main">View my Resume</button>
         </section>
         <section className="top-section picture-container">
@@ -73,10 +83,13 @@ export default function Main() {
         <section className="top-section hundred-days">
           <h2>#100DaysofCode</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            rerum tenetur architecto perferendis vitae! Ipsam possimus
-            architecto, similique autem, eum tempore est iusto dolore obcaecati
-            asperiores dolorem nesciunt soluta ipsa!
+            I have been taking part in the 100 days of code challenge and have
+            been keeping a regular (usually daily) diary of my progress on
+            Github.
+          </p>
+          <p>
+            If you are interested in reading it you can find it by clicking on
+            the link below.
           </p>
           <button className="btn-main">
             <a
@@ -91,8 +104,8 @@ export default function Main() {
         <section className="top-section toolbox">
           <h2>My Toolbox</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-            vitae!
+            I don’t have equal proficiency in all of these areas but, I am more
+            than willing to learn and get stuck in!
           </p>
           <div className="toolbox-grid-container">
             <Image
