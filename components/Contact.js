@@ -51,11 +51,15 @@ export default function Contact() {
 
         <section className="contact-me-info">
           <h2>Contact Me </h2>
-          <p> Encourage them to get in touch with me</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-            itaque ducimus aliquam esse provident quisquam deleniti quis
-            exercitationem quia dolorum?
+            {' '}
+            I’m currently looking for new opportunities and would love to hear
+            from you!
+          </p>
+          <p>
+            I can be reached by Email, telephone or through LinkedIn. Also, feel
+            free to fill out the contact form attached if you prefer. I look
+            forward to hearing from you!
           </p>
           <p>
             {' '}
