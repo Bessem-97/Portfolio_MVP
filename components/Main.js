@@ -36,7 +36,7 @@ export default function Main() {
             My hobbies include running, resistance training, reading, gaming and
             playing fetch with my favourite canine, Dori. I enjoy travelling and
             exploring new worlds, but to be honest, as I get deeper into my
-            thirties, my perfect evening simply involves lounging on a sofa
+            thirties, my perfect evening often involves lounging on a sofa
             whilst watching a good movie with my girlfriend.
           </p>
           {/* <p>
