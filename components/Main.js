@@ -55,28 +55,28 @@ export default function Main() {
               src={Shirt}
               alt="shirt-pic"
               height={200}
-              width={220}
+              width={200}
             />
             <Image
               className="profile-pics"
               src={Porto}
               alt="shirt-pic"
               height={200}
-              width={220}
+              width={200}
             />
             <Image
               className="profile-pics"
               src={PicBar}
               alt="shirt-pic"
               height={200}
-              width={220}
+              width={200}
             />
             <Image
               className="profile-pics"
               src={Dori}
               alt="shirt-pic"
               height={200}
-              width={220}
+              width={200}
             />
           </div>
         </section>

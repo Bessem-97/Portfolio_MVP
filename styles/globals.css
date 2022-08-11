@@ -6,7 +6,7 @@
   --main-button: #de1a1b;
   --secondary-button: #0d0222;
   --name-heading: #891d1e;
-  --background: #f2f3f8;
+  --background: rgb(242, 243, 248);
 }
 
 html {
@@ -170,7 +170,7 @@ header h1 {
 } */
 
 .main-grid-container {
-  max-width: 1400px;
+  max-width: 1250px;
   width: 80%;
   margin: 0 auto;
   display: grid;
@@ -210,7 +210,7 @@ main .picture-container {
   /* gap: 1rem; */
 
   /* margin: auto; */
-  gap: 1.5rem;
+  gap: 2rem;
 }
 main .profile-pics {
   border-radius: 8px;
