@@ -4,7 +4,7 @@ export default function Heading() {
       <h1 className="fixed-heading">Kieran Gill</h1>
       <div>
         <p className="heading-p">
-          Hi, I’m Kieran, a Front-End Developer and a current student on The
+          Hi, I’m Kieran, a Front-End Developer and a recent graduate of The
           School of Code’s 16-week intensive BootCamp.
         </p>
         <p className="heading-p">

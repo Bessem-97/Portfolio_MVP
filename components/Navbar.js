@@ -9,7 +9,14 @@ export default function Navbar() {
           <Link href="#contact">Contact me</Link>
         </div>
         <div className="nav-right">
-          <Link href="#about-me">About me</Link>
+          <a
+            href="https://github.com/KieranWebDev"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github Repos
+          </a>
+
           <Link href="/">Resume</Link>
           <a
             href="https://github.com/KieranWebDev/100-Days-Of-Code-Diary-School-of-Code-Bootcamp-Diary"

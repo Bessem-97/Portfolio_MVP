@@ -573,7 +573,7 @@ header {
   .about-us-btn-container {
     justify-content: center;
     gap: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
   .btn-main,
   .btn-github {

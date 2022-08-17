@@ -48,7 +48,15 @@ export default function Main() {
           </p> */}
           <div className="about-us-btn-container">
             <button className="btn-main">View my Resume</button>
-            <button className="btn-github">View my Github Repos</button>
+            <button className="btn-github">
+              <a
+                href="https://github.com/KieranWebDev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View my Github Repos
+              </a>
+            </button>
           </div>
         </section>
         <section className="top-section picture-container">
