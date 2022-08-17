@@ -46,7 +46,10 @@ export default function Main() {
             thirties, my perfect evening simply involves lounging on a sofa
             whilst watching a good movie with my girlfriend.
           </p> */}
-          <button className="btn-main">View my Resume</button>
+          <div className="about-us-btn-container">
+            <button className="btn-main">View my Resume</button>
+            <button className="btn-github">View my Github Repos</button>
+          </div>
         </section>
         <section className="top-section picture-container">
           <div className="pic-grid">

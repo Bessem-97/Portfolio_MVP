@@ -45,6 +45,12 @@ h2 {
   margin-top: 0.5rem;
   margin-bottom: 1.2rem;
 }
+.about-us-btn-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
 .btn-main {
   background-color: var(--main-button);
   font-family: 'Edu VIC WA NT Beginner', cursive;
@@ -62,6 +68,24 @@ h2 {
   cursor: pointer;
 }
 .btn-main:active {
+  box-shadow: none;
+}
+.btn-github {
+  background-color: var(--secondary-button);
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.5rem;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  box-shadow: rgba(13, 2, 24, 0.19) 0px 10px 20px,
+    rgba(13, 2, 34, 0.23) 0px 6px 6px;
+  margin: 0.5rem 0;
+}
+.btn-github:hover {
+  background-color: #31224c;
+}
+.btn-github:active {
   box-shadow: none;
 }
 
@@ -546,9 +570,17 @@ header {
     padding: 0;
     overflow-x: hidden;
   }
-  .btn-main {
+  .about-us-btn-container {
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .btn-main,
+  .btn-github {
     margin-top: 0;
     margin-bottom: 0.5rem;
+    padding: 0.6rem 0.8rem;
+    font-size: 1.2rem;
   }
   .top-section {
     padding: 1rem 1.2rem;
