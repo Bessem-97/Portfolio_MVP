@@ -17,7 +17,13 @@ export default function Navbar() {
             Github Repos
           </a>
 
-          <Link href="/">Resume</Link>
+          <a
+            href="https://drive.google.com/file/d/12UdRjUktBZj6KWG0mzpGKRlDVw4G0Zpp/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
           <a
             href="https://github.com/KieranWebDev/100-Days-Of-Code-Diary-School-of-Code-Bootcamp-Diary"
             target="_blank"

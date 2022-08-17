@@ -46,8 +46,17 @@ export default function Main() {
             thirties, my perfect evening simply involves lounging on a sofa
             whilst watching a good movie with my girlfriend.
           </p> */}
+
           <div className="about-us-btn-container">
-            <button className="btn-main">View my Resume</button>
+            <button className="btn-main">
+              <a
+                href="https://drive.google.com/file/d/12UdRjUktBZj6KWG0mzpGKRlDVw4G0Zpp/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View my Resume
+              </a>
+            </button>
             <button className="btn-github">
               <a
                 href="https://github.com/KieranWebDev"
