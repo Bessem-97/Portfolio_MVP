@@ -52,3 +52,19 @@
             </td>
         </tr>
     </table>
+    
+## What I learned and the challenges faced 
+
+- This was my first attempt at designing a website independently. I really enjoyed putting myself in the user's shoes during the design process and thinking about what they would expect and want to see and where items should be placed in the flow of the page.
+
+- This was a great opportunity to get some reps in with Miro and Figma. I found Miro easier to pick up, but more limited in features, whereas Figma seemed to be the opposite. I definitely plan to take a deep dive into Figma soon. 
+
+- I decided to build the site using Nextjs as I felt it would be a good opportunity to challenge myself and play with some new tech. I also felt that I could take advantage of the Server Side Rendering and Lazy Loading Images feature that Nextjs comes with out of the box.
+
+- This was the first time I had made a fully responsive website and CSS Grid helped to make it much easier than I anticipated. I first completed Net Ninjas amazing CCS Grid layout course, then applied the principles I had learned there on my portfolio site.  Although I understand that it is usually best practice to follow mobile-first design principles, I decided to focus on the desktop version first due to time constraints. (I imagined that most potential employers would view the site from a desktop/laptop at work rather than from a phone.)
+
+- As I had designed a single-page site, I initially thought that I could simply put all the styles into the General Styles sheet. However, the style sheet soon became very long. Although I had labelled all the class names clearly and split the CSS styles into relevant sections, I feel that the stylesheet would probably be difficult to navigate for another user. Next time I would definitely take advantage of CSS modules, especially as I have had a lot of practice with it since. 
+
+- I deployed the site to Netlify as I intended to take advantage of their form feature, however, I had a lot of trouble implementing this. After more than a couple of hours of dead-ends and frustrations with Netlify forms, I decided to use Formspree instead and the process was seamless. Therefore, next time I would probably deploy with Vercel as it is designed explicitly with Nextjs in mind.
+
+
