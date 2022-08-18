@@ -2,9 +2,12 @@
 	Portfolio MVP
 </h1>
 <h2 align="center">
-	View The Website <a href='https://kieran-gill-portfolio.netlify.app/'>here</a>
+	View The Website <a href='https://kieran-gill-portfolio.netlify.app/'>here.</a>
 </h2>
 
+## Project Details 
+
+My main focus for this project was to get a presentable portfolio page ready in time for The School of Code’s graduation event. I tried to design a simple, clean site that I could realistically build in a short time, given the skill set that I had at the time.
 
  <table>
 	    <tr>
@@ -25,9 +28,7 @@
 	</tr>
     </table>
 
-## Details 
 
-- My main focus for this project was to get a presentable portfolio page ready in time for The School of Code’s graduation event. I tried to design a simple, clean site that I could realistically build in a short time, given the skill set that I had at the time.
 
 ## Ideation and Design
 
@@ -67,4 +68,16 @@
 
 - I deployed the site to Netlify as I intended to take advantage of their form feature, however, I had a lot of trouble implementing this. After more than a couple of hours of dead-ends and frustrations with Netlify forms, I decided to use Formspree instead and the process was seamless. Therefore, next time I would probably deploy with Vercel as it is designed explicitly with Nextjs in mind.
 
+## Future plans
+
+- I would like to refactor and clean up the CSS code as I think it is pretty sloppy at the moment. (As my priority was to get the site ready by August 24th)
+
+- In the future, I intend to completely redesign the website and build it with Tailwind. I have a Figma design course and also a Tailwind CSS course that I plan to work through and then apply the principles learned there to build the new site.
+
+## Tech Stack
+
+- Nextjs
+- Formspree
+- Figma
+- Miro
 
