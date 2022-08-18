@@ -32,7 +32,7 @@ My main focus for this project was to get a presentable portfolio page ready in 
 
 ## Ideation and Design
 
-- Week 3 of School of code was UI/UX week, and our homework task was to design low-fidelity and high-fidelity wireframes for our Portfolio site. 
+- Week 3 of School of Code was UI/UX week, and our homework task was to design low-fidelity and high-fidelity wireframes for our Portfolio site. I used these wireframes to build the site later in the course.
 
 - I started off by putting myself in the potential user's shoes and created some user stories and user personas. I tried to design the site for a potential employer who doesn’t have much time and likely looks at dozens of portfolio sites a day. Thus, I imagined that they would want to see a short and to the point About Me section, easy to view contact information, clear links to my Resume and projects etc 
 
@@ -60,9 +60,9 @@ My main focus for this project was to get a presentable portfolio page ready in 
 
 - This was a great opportunity to get some reps in with Miro and Figma. I found Miro easier to pick up, but more limited in features, whereas Figma seemed to be the opposite. I definitely plan to take a deep dive into Figma soon. 
 
-- I decided to build the site using Nextjs as I felt it would be a good opportunity to challenge myself and play with some new tech. I also felt that I could take advantage of the Server Side Rendering and Lazy Loading Images feature that Nextjs comes with out of the box.
+- I decided to build the site using Nextjs, as I felt it would be a good opportunity to challenge myself and play with some new tech. I also felt that I could take advantage of the Server Side Rendering and Lazy Loading Images feature that Nextjs comes with out of the box.
 
-- This was the first time I had made a fully responsive website and CSS Grid helped to make it much easier than I anticipated. I first completed Net Ninjas amazing CCS Grid layout course, then applied the principles I had learned there on my portfolio site.  Although I understand that it is usually best practice to follow mobile-first design principles, I decided to focus on the desktop version first due to time constraints. (I imagined that most potential employers would view the site from a desktop/laptop at work rather than from a phone.)
+- This was the first time I had made a fully responsive website and CSS Grid helped to make it much easier than I anticipated. I first completed Net Ninjas amzing <a href='https://www.youtube.com/watch?v=xPuYbmmPdEM&list=PL4cUxeGkcC9hk02lFb6EkdXF2DYGl4Gg4'>CCS Grid layout course</a> , then applied the principles I had learned there on my portfolio site.  Although I understand that it is usually best practice to follow mobile-first design principles, I decided to focus on the desktop version first due to time constraints. (I imagined that most potential employers would view the site from a desktop/laptop at work rather than from a phone.)
 
 - As I had designed a single-page site, I initially thought that I could simply put all the styles into the General Styles sheet. However, the style sheet soon became very long. Although I had labelled all the class names clearly and split the CSS styles into relevant sections, I feel that the stylesheet would probably be difficult to navigate for another user. Next time I would definitely take advantage of CSS modules, especially as I have had a lot of practice with it since. 
 
@@ -70,7 +70,7 @@ My main focus for this project was to get a presentable portfolio page ready in 
 
 ## Future plans
 
-- I would like to refactor and clean up the CSS code as I think it is pretty sloppy at the moment. (As my priority was to get the site ready by August 24th)
+- I would like to refactor and clean up the CSS code, as I think it is pretty sloppy at the moment. (As my priority was to get the site ready by August 24th)
 
 - In the future, I intend to completely redesign the website and build it with Tailwind. I have a Figma design course and also a Tailwind CSS course that I plan to work through and then apply the principles learned there to build the new site.
 
