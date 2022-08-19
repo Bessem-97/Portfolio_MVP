@@ -39,21 +39,20 @@ const projects = [
     linkToRepo: `https://github.com/KieranWebDev/w8d5_react-api-hackathon-kieran-and-glyn-week-8`,
   },
   {
-    image: MatchGame,
-    projectTitle: 'Matching Pairs',
-    description:
-      'A simple pelmanism game I built with React as part of a Udemy course. It helped me to cement some of the React fundamentals and I was also able to learn a few new CSS tricks along the way.',
-    linkToSite: `https://kieran-gill-matching-pairs-game.vercel.app/`,
-    linkToRepo: `https://github.com/KieranWebDev/matching-pairs-game`,
-  },
-
-  {
     image: Recipe,
     projectTitle: 'Recipe Site',
     description:
       'A recipe site built with React, Firebase and React Router. The user can create, edit and delete recipes. There is also a dark mode switch which allowed me to learn more about the useContext and useReducer hooks. ',
     linkToSite: `https://kieran-gill-recipe-site.vercel.app/`,
     linkToRepo: `https://github.com/KieranWebDev/RecipeDirectory-ReactAndFirebase`,
+  },
+  {
+    image: MatchGame,
+    projectTitle: 'Matching Pairs',
+    description:
+      'A simple pelmanism game I built with React as part of a Udemy course. It helped me to cement some of the React fundamentals and I was also able to learn a few new CSS tricks along the way.',
+    linkToSite: `https://kieran-gill-matching-pairs-game.vercel.app/`,
+    linkToRepo: `https://github.com/KieranWebDev/matching-pairs-game`,
   },
 ];
 export default projects;

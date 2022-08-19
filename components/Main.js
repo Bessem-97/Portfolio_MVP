@@ -124,7 +124,7 @@ export default function Main() {
         <section className="top-section toolbox">
           <h2>My Toolbox</h2>
           <p>
-            I don’t have equal proficiency in all of these areas but, I am more
+            I don’t have equal proficiency in all of these areas, but I am more
             than willing to learn and get stuck in!
           </p>
           <div className="toolbox-grid-container">
