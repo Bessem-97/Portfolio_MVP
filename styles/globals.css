@@ -134,6 +134,7 @@ a {
 }
 
 /* navbar */
+
 .nav-full-width {
   width: 100%;
   background-color: var(--background);
@@ -173,6 +174,7 @@ nav a:hover {
 }
 
 /* header */
+
 header {
   max-width: 1400px;
   width: 40%;
@@ -187,11 +189,8 @@ header h1 {
   font-size: 2.5rem;
   color: var(--name-heading);
 }
+
 /* main */
-/* .page-width {
-  max-width: 1400px;
-  margin: auto;
-} */
 
 .main-grid-container {
   max-width: 1250px;
@@ -208,7 +207,6 @@ header h1 {
   padding: 1rem 3rem 1rem 2rem;
   box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
     rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
-  /* 13, 2, 34 */
 }
 main .about-me {
   grid-column: span 7;
@@ -221,19 +219,12 @@ main .picture-container {
   box-shadow: none;
   padding: 0;
   align-self: center;
-  /* border: 1px solid black; */
 }
 
 .pic-grid {
-  /* border: 1px solid black; */
-  /* width: 100%; */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* align-items: center; */
   grid-row: 400px;
-  /* gap: 1rem; */
-
-  /* margin: auto; */
   gap: 2rem;
 }
 main .profile-pics {
@@ -252,6 +243,7 @@ main .toolbox {
 }
 
 /* toolbox */
+
 main .toolbox-grid-container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -263,6 +255,7 @@ main .toolbox-grid-container {
   max-width: 70px;
   max-height: 70px;
 }
+
 /* project card */
 
 .projects-heading {
@@ -294,24 +287,17 @@ section .project-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-
   gap: 2rem;
 }
 
 .project-card-standard {
-  /* justify-self: center; */
-  /* display: grid;
-  grid-template-columns: 1fr; */
-  /* justify-self: center; */
   display: flex;
   flex-direction: column;
-
   box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
     rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
 }
 .card-bottom-standard {
   background-color: var(--background);
-  /* grid-column: span 2; */
   border-radius: 0 0 8px 8px;
   padding: 1rem 1.5rem;
   height: 100%;
@@ -325,7 +311,6 @@ section .project-grid-container {
   font-size: 1.8rem;
 }
 .card-top-standard {
-  /* grid-column: span 2; */
   border-radius: 8px 8px 0 0;
 }
 
@@ -343,6 +328,7 @@ section .project-grid-container {
 }
 
 /* form */
+
 .contact {
   max-width: 1400px;
   margin: 0 auto;
@@ -352,14 +338,12 @@ section .project-grid-container {
   margin: 80px auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* margin: 80px 0; */
   gap: 50px;
   align-items: center;
 }
 form input[type='text'],
 form input[type='email'],
 form textarea {
-  /* display: inline-block; */
   box-sizing: border-box;
   width: 90%;
   padding: 0.7rem 1.2rem;
@@ -368,7 +352,6 @@ form textarea {
   font-family: 'Mulish', sans-serif;
   background: #ffffff;
   border: none;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   border-radius: 10px;
   font-weight: 400;
   font-size: 1.2rem;
@@ -378,8 +361,8 @@ form textarea {
   box-sizing: border-box;
   min-height: 300px;
   font-family: 'Mulish', sans-serif;
-  /* max-width: 600px;
-  min-width: 400px; */
+  /* max-width: 450px; */
+  /* min-width: 400px;  */
   margin-left: 20px;
 }
 form label {
@@ -396,30 +379,16 @@ form label {
   display: flex;
   flex-direction: column;
   padding: 30px;
-  /* color: var(--secondary-button); */
   background-color: var(--secondary);
   border-radius: 8px;
   box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
     rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
 }
-/* .contact {
-  margin: auto;
-} */
+
 .form-button {
-  /* background-color: var(--main-button);
-  font-family: 'Edu VIC WA NT Beginner', cursive;
-  font-size: 1.2rem;
-  padding: 0.6rem 1.5rem;
-  color: white;
-  border-radius: 8px;
-  border: none;
-  box-shadow: rgba(13, 2, 24, 0.19) 0px 10px 20px,
-    rgba(13, 2, 34, 0.23) 0px 6px 6px;
-  margin-top: 1rem; */
   width: 35%;
   margin-left: 20px;
   cursor: pointer;
-  /* color: white; */
 }
 
 .contact-me-info h2,
@@ -442,11 +411,17 @@ form label {
   display: inline-block;
   margin-top: 0.9rem;
 }
+
+/* media queries */
+
 @media screen and (max-width: 1600px) {
   .projects-width {
     width: 98%;
   }
 }
+
+/* small screen */
+
 @media screen and (max-width: 1200px) {
   section .project-grid-container {
     width: 95%;
@@ -467,6 +442,9 @@ form label {
 header {
   width: 50%;
 }
+
+/* tablet */
+
 @media screen and (max-width: 950px) {
   .btn-main {
     margin-top: 0.5rem;
@@ -517,11 +495,7 @@ header {
     margin: 2rem auto;
     gap: 2rem;
   }
-  /* .contact-grid-container {
-    width: 80%;
-    margin: 2.5rem auto;
-    gap: 2rem;
-  } */
+
   .contact-form {
     grid-column: span 6;
     padding: 1rem 0;
@@ -530,6 +504,8 @@ header {
     grid-column: span 6;
   }
 }
+
+/* mobile */
 
 @media screen and (max-width: 650px) {
   main .toolbox-grid-container {
@@ -585,30 +561,6 @@ header {
   .top-section {
     padding: 1rem 1.2rem;
   }
-  /* .nav-container {
-    display: block;
-    padding: 0.7rem;
-  }
-
-  .nav-left {
-    display: flex;
-    justify-content: space-between;
-  }
-  nav h3 {
-    margin: 0;
-    padding: 0;
-    font-size: 1.3rem;
-  }
-  .nav-right {
-    padding-top: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .nav-right a {
-    font-size: 1.1rem;
-    margin-left: 0;
-  } */
 
   header {
     width: 90%;
@@ -670,7 +622,7 @@ header {
     font-size: 1rem;
   }
   form textarea {
-    /* max-width: 450px;
+    /* max-width: 300px;
     min-width: 200px; */
     margin-left: 1rem;
   }
