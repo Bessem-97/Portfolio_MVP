@@ -507,7 +507,7 @@ header {
 
 /* mobile */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   main .toolbox-grid-container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -534,6 +534,22 @@ header {
   .nav-right a {
     font-size: 1.1rem;
     margin-left: 0;
+  }
+  .project-card-standard {
+    grid-column: span 2;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .contact-grid-container {
+    min-width: 75%;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem auto;
+    gap: 0;
+  }
+  .contact-me-info {
+    margin-left: 2rem;
+    grid-row: 1;
+    margin-bottom: 1rem;
   }
 }
 
@@ -600,6 +616,7 @@ header {
   }
   .project-card-standard {
     grid-column: span 2;
+    width: 100%;
   }
 
   .contact-grid-container {
