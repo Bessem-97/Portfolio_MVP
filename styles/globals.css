@@ -296,7 +296,9 @@ section .project-grid-container {
   box-shadow: rgba(13, 2, 34, 0.16) 0px 10px 36px 0px,
     rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
 }
+
 .card-bottom-standard {
+  margin-top: -5px;
   background-color: var(--background);
   border-radius: 0 0 8px 8px;
   padding: 1rem 1.5rem;

@@ -4,6 +4,8 @@ import Bandits from '../public/port pics/Band-its.PNG';
 import StudyBudz from '../public/port pics/studybudz.PNG';
 import Portfolio from '../public/port pics/portfolio-site.PNG';
 import Untrodden from '../public/port pics/untrodden.PNG';
+import eLearning from '../public/port pics/Skilled e-learning landing page.png';
+import formComp from '../public/port pics/screenshot-form.png';
 
 const projects = [
   {
@@ -14,14 +16,7 @@ const projects = [
     linkToSite: `https://untroddenapp.netlify.app/`,
     linkToRepo: `https://github.com/SchoolOfCode/final-project_front-end-untrodden`,
   },
-  {
-    image: StudyBudz,
-    projectTitle: 'StudyBudz',
-    description:
-      'A full stack project created in four days in a team of four, using React, React Router, Nodejs and PostgresSQL. This was the first project I was involved in that involved a team larger than 2 people. I’m really happy with what we achieved given the time we had and the skills we processed at the time.',
-    linkToSite: `https://kieran-gill-week9-project.vercel.app/`,
-    linkToRepo: `https://github.com/KieranWebDev/w9_frontend-project-room-5-front-end`,
-  },
+
   {
     image: Portfolio,
     projectTitle: 'Portfolio MVP',
@@ -31,13 +26,22 @@ const projects = [
     linkToRepo: `https://github.com/KieranWebDev/Portfolio-MVP`,
   },
   {
-    image: Bandits,
-    projectTitle: 'Band-its',
+    image: eLearning,
+    projectTitle: `E-learning landing Page`,
     description:
-      'This was a hackathon project I made with a friend in 5 hours using React and the AudioDB API. it displays info on a band/artist based on a users search. We also had time to implement a random search feature, which allows the user to see info on a random band from the database.',
-    linkToSite: `https://kieran-gill-week8-hackathon-bandits.vercel.app/`,
-    linkToRepo: `https://github.com/KieranWebDev/w8d5_react-api-hackathon-kieran-and-glyn-week-8`,
+      'A fully responsive simple landing page for a fictional e-learning site, created with HTML and CSS. I used a figma design brief from FrontendMentors.com. The aim was to match the original design brief as closely as possible',
+    linkToSite: `https://kieran-gill-e-learning-landing-page.vercel.app/`,
+    linkToRepo: `https://github.com/KieranWebDev/FEMentors-eLearningLandingPage/blob/main/README.md`,
   },
+  {
+    image: formComp,
+    projectTitle: `form-component`,
+    description:
+      'A simple component build vith vanilla JS, HTML and CSS using a design brief provided by FrontendMentors.com. It was a great chance to practice client-side validation using Javascript. I expanded on the design brief a bit by adding a "success" message as well as UI elements to let the user know if their input was accepted as well as rejected.',
+    linkToSite: `https://kieran-gill-intro-component-sign-up.vercel.app/`,
+    linkToRepo: `https://github.com/KieranWebDev/FEMentors-introComponentSignUp`,
+  },
+
   {
     image: Recipe,
     projectTitle: 'Recipe Site',
