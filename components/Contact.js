@@ -1,4 +1,4 @@
-import LinkedIn from '../public/icomoon-free_linkedin.png';
+import LinkedIn from '../Images/icomoon-free_linkedin.png';
 import Image from 'next/image';
 import { useForm, ValidationError } from '@formspree/react';
 
