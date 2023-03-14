@@ -1,9 +1,9 @@
 import Image from 'next/image';
 //profile pics
-import Dori from '../Images/dori - square.JPG';
-import Porto from '../Images/porto square.JPG';
-import Shirt from '../Images/shirt 2.JPG';
-import PicBar from '../Images/pic 4.JPG';
+import Dori from '../Images/dori-square.JPG';
+import Porto from '../Images/porto-square.JPG';
+import Shirt from '../Images/shirt-2.JPG';
+import PicBar from '../Images/pic-4.JPG';
 //icons
 import HTML from '../Images/icons/akar-icons_html-fill.png';
 import CSS from '../Images/icons/akar-icons_css-fill.png';

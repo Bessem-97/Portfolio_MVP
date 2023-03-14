@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="project-grid-container">
           {projects.map((project) => (
             <Card
-              key={project.title}
+              key={project.projectTitle}
               image={project.image}
               title={project.projectTitle}
               description={project.description}

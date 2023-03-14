@@ -2,13 +2,13 @@
 // import Recipe from '../public/port pics/recipe.PNG';
 // import Bandits from '../public/port pics/Band-its.PNG';
 // import StudyBudz from '../public/port pics/studybudz.PNG';
-import Portfolio from '../Images/port pics/portfolio-site.PNG';
-import Untrodden from '../Images/port pics/untrodden.PNG';
+import Portfolio from '../Images/port-pics/portfolio-site.PNG';
+import Untrodden from '../Images/port-pics/untrodden.PNG';
 // import eLearning from '../public/port pics/Skilled e-learning landing page.png';
-import formComp from '../Images/port pics/screenshot-form.png';
-import GithubUserSearchApp from '../Images/port pics/darkmode screenshot.png';
-import SunnySide from '../Images/port pics/sunyside pic.png';
-import timeTrackingDash from '../Images/port pics/time tracker.png';
+import formComp from '../Images/port-pics/screenshot-form.png';
+import GithubUserSearchApp from '../Images/port-pics/darkmode-screenshot.png';
+import SunnySide from '../Images/port-pics/sunyside-pic.png';
+import timeTrackingDash from '../Images/port-pics/time-tracker.png';
 
 const projects = [
   {
