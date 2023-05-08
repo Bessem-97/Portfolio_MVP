@@ -57,19 +57,16 @@ export default function Contact() {
             from you!
           </p>
           <p>
-            I can be reached by Email, telephone or through LinkedIn. Also, feel
-            free to fill out the contact form attached if you prefer. I look
-            forward to hearing from you!
+            I can be reached by Email or through LinkedIn. Also, feel free to
+            fill out the contact form attached if you prefer. I look forward to
+            hearing from you!
           </p>
           <p>
             {' '}
             <b>Direct email:</b>
           </p>
           <p>kieran.webdevelopment@gmail.com</p>
-          <p>
-            <b>Telephone:</b>
-          </p>
-          <p>07745391002</p>
+
           <p className="linkedIn-ptag">
             <b>LinkedIn:</b>
           </p>
