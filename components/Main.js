@@ -105,16 +105,42 @@ export default function Main() {
           <p>I'm currently working towards earning two certificates:</p>
           <ul>
             <li>
-              Scrimba's Frontend Developer Career Path Certificate (75%
-              completed)
+              <a
+                href="https://scrimba.com/learn/frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Scrimba's Frontend Developer Career Path Certificate
+              </a>{' '}
+              (75% completed)
             </li>
             <li>
-              Meta's Front-End Developer Professional Certificate (5/9 courses
-              completed).
+              <a
+                href="https://www.coursera.org/professional-certificates/meta-front-end-developer?"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Meta's Front-End Developer Professional Certificate
+              </a>{' '}
+              (5/9 courses completed).
             </li>
             <li>
-              I've also earned certificates from FreeCodeCamp in JavaScript
-              Algorithms and Data Structures and Responsive Web Design.
+              I've also earned certificates from FreeCodeCamp in{' '}
+              <a
+                href="https://www.freecodecamp.org/certification/KieranGill/javascript-algorithms-and-data-structures"
+                target="_blank"
+                rel="noreferrer"
+              >
+                JavaScript Algorithms and Data Structures
+              </a>{' '}
+              and{' '}
+              <a
+                href="https://www.freecodecamp.org/certification/KieranGill/responsive-web-design"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Responsive Web Design.
+              </a>
             </li>
           </ul>
 

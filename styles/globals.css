@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600&family=Mulish:wght@400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600&family=Mulish:wght@400;600&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600&family=Mulish:wght@400;600;700&display=swap');
 
 :root {
   --main: rgb(13, 2, 34);
@@ -55,7 +57,13 @@ h2 {
   margin-bottom: 1.2rem;
 }
 
-/* buttons */
+/* buttons/main links */
+a {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
 .about-us-btn-container {
   display: flex;
   justify-content: flex-start;
@@ -113,12 +121,6 @@ h2 {
   margin-top: 1rem;
 }
 
-a {
-  font-family: 'Edu VIC WA NT Beginner', cursive;
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: white;
-}
 .btn-project-main:hover {
   background-color: var(--name-heading);
 }
@@ -254,10 +256,23 @@ main .certificates {
   grid-row: 400px;
   padding: 1rem 2rem;
 }
+.certificates a {
+  text-decoration: none;
+  color: var(--main);
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.certificates a:hover,
+.certificates a:active,
+.certificates a:focus {
+  text-decoration: underline;
+}
 
 main .toolbox {
   grid-column: span 7;
   grid-row: 400px;
+  padding: 1rem 2rem;
 }
 
 /* toolbox */
