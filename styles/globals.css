@@ -13,7 +13,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* global styles */
+/*GLOBAL STYLES */
 body {
   /* max-width: 1400px; */
   margin: 0 auto;
@@ -29,10 +29,19 @@ h4 {
 }
 
 p,
-a {
+a,
+li {
   font-family: 'Mulish', sans-serif;
   line-height: 1.5rem;
   font-size: 1.1rem;
+}
+
+ul {
+  padding: 0;
+  padding-left: 1em;
+}
+li {
+  margin-bottom: 0.5em;
 }
 b {
   font-weight: 800;
@@ -45,6 +54,8 @@ h2 {
   margin-top: 0.5rem;
   margin-bottom: 1.2rem;
 }
+
+/* buttons */
 .about-us-btn-container {
   display: flex;
   justify-content: flex-start;
@@ -101,6 +112,7 @@ h2 {
     rgba(13, 2, 34, 0.23) 0px 6px 6px;
   margin-top: 1rem;
 }
+
 a {
   font-family: 'Edu VIC WA NT Beginner', cursive;
   font-size: 1.2rem;
@@ -162,6 +174,8 @@ nav h3 {
   color: var(--name-heading);
 }
 nav a {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 1.2rem;
   margin-left: 1rem;
   font-size: 1.2rem;
   text-decoration: none;
@@ -169,7 +183,9 @@ nav a {
   font-weight: 600;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:active,
+nav a:focus {
   text-decoration: underline;
 }
 
@@ -233,10 +249,12 @@ main .profile-pics {
     rgba(13, 2, 34, 0.06) 0px 0px 0px 1px;
 }
 
-main .hundred-days {
+main .certificates {
   grid-column: span 5;
   grid-row: 400px;
+  padding: 1rem 2rem;
 }
+
 main .toolbox {
   grid-column: span 7;
   grid-row: 400px;

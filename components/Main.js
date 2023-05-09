@@ -100,18 +100,25 @@ export default function Main() {
             />
           </div>
         </section>
-        <section className="top-section hundred-days">
-          <h2>#100DaysofCode</h2>
-          <p>
-            I have been taking part in the 100 days of code challenge and have
-            been keeping a regular (usually daily) diary of my progress on
-            Github.
-          </p>
-          <p>
-            If you are interested in reading it you can find it by clicking on
-            the link below.
-          </p>
-          <button className="btn-main">
+        <section className="top-section certificates">
+          <h2>Certifications</h2>
+          <p>I'm currently working towards earning two certificates:</p>
+          <ul>
+            <li>
+              Scrimba's Frontend Developer Career Path Certificate (75%
+              completed)
+            </li>
+            <li>
+              Meta's Front-End Developer Professional Certificate (5/9 courses
+              completed).
+            </li>
+            <li>
+              I've also earned certificates from FreeCodeCamp in JavaScript
+              Algorithms and Data Structures and Responsive Web Design.
+            </li>
+          </ul>
+
+          {/* <button className="btn-main">
             <a
               href="https://github.com/KieranWebDev/100-Days-Of-Code-Diary-School-of-Code-Bootcamp-Diary"
               target="_blank"
@@ -119,7 +126,7 @@ export default function Main() {
             >
               Read my Diary
             </a>
-          </button>
+          </button> */}
         </section>
         <section className="top-section toolbox">
           <h2>My Toolbox</h2>
