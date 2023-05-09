@@ -708,7 +708,7 @@ header {
   } */
   .form-button {
     width: 40%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
     /* color: white; */
     margin-top: 0.8rem;
