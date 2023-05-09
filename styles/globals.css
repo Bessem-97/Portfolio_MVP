@@ -375,12 +375,13 @@ section .project-grid-container {
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   align-items: center;
+  justify-content: center;
 }
 form input[type='text'],
 form input[type='email'],
 form textarea {
   box-sizing: border-box;
-  width: 90%;
+  /* width: 90%; */
   padding: 0.7rem 1.2rem;
   margin: 0.5rem 0;
   /* margin-left: 1.2rem; */
@@ -390,7 +391,7 @@ form textarea {
   border-radius: 10px;
   font-weight: 400;
   font-size: 1.2rem;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 form textarea {
   box-sizing: border-box;
@@ -398,7 +399,8 @@ form textarea {
   font-family: 'Mulish', sans-serif;
   /* max-width: 450px; */
   /* min-width: 400px;  */
-  margin-left: 20px;
+  /* margin-left: 20px; */
+  resize: vertical;
 }
 form label {
   color: var(--secondary-button);
@@ -407,7 +409,7 @@ form label {
   font-weight: 600;
   font-size: 1.5rem;
   margin-bottom: 10px;
-  margin-left: 1.1rem;
+  /* margin-left: 1.1rem; */
 }
 .contact-form {
   /* width: 100%; */
@@ -422,7 +424,7 @@ form label {
 
 .form-button {
   width: 35%;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   cursor: pointer;
 }
 
@@ -458,6 +460,19 @@ form label {
 /* small screen */
 
 @media screen and (max-width: 1200px) {
+  .main-grid-container {
+    width: 95%;
+  }
+  .contact-grid-container {
+    max-width: 90%;
+    gap: 1em;
+  }
+  .contact-me-info p {
+    width: 100%;
+  }
+  .contact-me-info {
+    padding: 1em;
+  }
   section .project-grid-container {
     width: 95%;
     grid-template-columns: 1fr 1fr;
@@ -504,7 +519,7 @@ header {
   .pic-grid {
     grid-template-columns: repeat(4, 1fr);
   }
-  main .hundred-days {
+  main .certificates {
     grid-column: span 6;
   }
   main .toolbox {
@@ -517,23 +532,23 @@ header {
   form input[type='text'],
   form input[type='email'],
   form textarea {
-    width: 85%;
+    width: 100%;
 
     margin: 0.5rem auto;
   }
-  form label {
+  /* form label {
     margin-left: 1.1rem;
-  }
+  } */
   .contact-grid-container {
     min-width: 95%;
     grid-template-columns: repeat(12, 1fr);
-    margin: 2rem auto;
+    /* margin: 3rem auto; */
     gap: 2rem;
   }
 
   .contact-form {
     grid-column: span 6;
-    padding: 1rem 0;
+    padding: 1rem;
   }
   .contact-me-info {
     grid-column: span 6;
@@ -582,7 +597,7 @@ header {
     gap: 0;
   }
   .contact-me-info {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     grid-row: 1;
     margin-bottom: 1rem;
   }
@@ -634,7 +649,7 @@ header {
   .pic-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  main .hundred-days {
+  main .certificates {
     grid-column: span 10;
   }
   main .toolbox {
