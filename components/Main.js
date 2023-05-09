@@ -102,7 +102,7 @@ export default function Main() {
         </section>
         <section className="top-section certificates">
           <h2>Certifications</h2>
-          <p>I'm currently working towards earning two certificates:</p>
+          <p>I&apos;m currently working towards earning two certificates:</p>
           <ul>
             <li>
               <a
@@ -110,7 +110,7 @@ export default function Main() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Scrimba's Frontend Developer Career Path Certificate
+                Scrimba&apos;s Frontend Developer Career Path Certificate
               </a>{' '}
               (75% completed)
             </li>
@@ -120,12 +120,12 @@ export default function Main() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Meta's Front-End Developer Professional Certificate
+                Meta&apos;s Front-End Developer Professional Certificate
               </a>{' '}
               (5/9 courses completed).
             </li>
             <li>
-              I've also earned certificates from FreeCodeCamp in{' '}
+              I&apos;ve also earned certificates from FreeCodeCamp in{' '}
               <a
                 href="https://www.freecodecamp.org/certification/KieranGill/javascript-algorithms-and-data-structures"
                 target="_blank"
