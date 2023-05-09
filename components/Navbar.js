@@ -24,13 +24,7 @@ export default function Navbar() {
           >
             Resume
           </a>
-          <a
-            href="https://github.com/KieranWebDev/100-Days-Of-Code-Diary-School-of-Code-Bootcamp-Diary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            #100DaysofCode
-          </a>
+          <Link href="#about-me">About Me</Link>
           <Link href="#projects">Projects</Link>
         </div>
       </nav>
