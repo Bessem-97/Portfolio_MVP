@@ -149,7 +149,7 @@ a {
 
 /* navbar */
 
-.nav-full-width {
+/* .nav-full-width {
   width: 100%;
   background-color: var(--background);
   position: sticky;
@@ -159,11 +159,11 @@ a {
 .nav-container {
   max-width: 1400px;
   margin: 0 auto;
-  border-bottom: 1px solid var(--secondary-button);
-  /* position: sticky;
+  border-bottom: 1px solid var(--secondary-button); */
+/* position: sticky;
   top: 0px;
   z-index: 100; */
-  display: flex;
+/* display: flex;
   justify-content: space-between;
   align-items: center;
 
@@ -189,7 +189,7 @@ nav a:hover,
 nav a:active,
 nav a:focus {
   text-decoration: underline;
-}
+} */
 
 /* header */
 
@@ -558,7 +558,7 @@ header {
 /* mobile */
 
 @media screen and (max-width: 700px) {
-  .nav-container {
+  /* .nav-container {
     display: block;
     padding: 0.7rem;
   }
@@ -581,7 +581,7 @@ header {
   .nav-right a {
     font-size: 1.1rem;
     margin-left: 0;
-  }
+  } */
   .project-card-standard {
     grid-column: span 2;
     width: 90%;
@@ -723,5 +723,103 @@ header {
   }
   .contact-me-info p {
     width: 100%;
+  }
+}
+
+nav {
+  padding: 2.5em 1em;
+  position: relative;
+}
+
+nav.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+nav .logo-and-hamburger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  width: 144px;
+  height: 24px;
+}
+nav .hamburger {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* styles for open mobile menu */
+nav .mobile-links {
+  display: block;
+  margin: auto 0;
+}
+nav .mobile-links li {
+  list-style: none;
+  margin: 1em 0;
+}
+nav .mobile-links a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* hide desktop styles */
+nav .desktop-links {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav .hamburger {
+    display: none;
+  }
+  nav .logo {
+    width: 192px;
+    height: 32px;
+  }
+
+  nav .desktop-links {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+  }
+  .desktop-links a {
+    text-decoration: none;
+    color: var(--white);
+    position: relative;
+  }
+  .desktop-links a:hover::after {
+    content: '';
+    /* display: block; */
+    position: absolute;
+    top: 20px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: 2px;
+    background-color: var(--white);
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: all 3s ease-in-out;
   }
 }
