@@ -1,12 +1,15 @@
 <h1 align="center">
-	Portfolio MVP
+	Portfolio MVP 
 </h1>
+
+
+
 <h2 align="center">
 	View The Website <a href='https://kieran-gill-portfolio.netlify.app/'>here.</a>
 </h2>
 
 ## Project Details 
-
+*(August 2022)*
 My main focus for this project was to get a presentable portfolio page ready in time for The School of Code’s graduation event. I tried to design a simple, clean site that I could realistically build in a short time, given the skill set that I had at the time.
 
 ### Note:
