@@ -155,96 +155,134 @@ export default function Main() {
           </button> */}
         </section>
         <section className="top-section toolbox">
-          <h2>My Toolbox</h2>
-          <p>
-            I don’t have equal proficiency in all of these areas, but I am more
-            than willing to learn and get stuck in!
-          </p>
+          <div className="toolbox-heading">
+            <h2>My Toolbox</h2>
+            <p>
+              I don’t have equal proficiency in all of these areas, but I am
+              more than willing to learn and get stuck in!
+            </p>
+          </div>
           <div className="toolbox-grid-container">
-            <Image
-              className="icon"
-              src={HTML}
-              alt="HTML icon"
-              width={90}
-              height={90}
-            ></Image>
-            <Image
-              className="icon"
-              src={CSS}
-              alt="CSS"
-              width={90}
-              height={90}
-            ></Image>
-            <Image
-              className="icon"
-              src={JS}
-              alt="JS"
-              width={85}
-              height={85}
-            ></Image>
-            <Image
-              className="icon"
-              src={React}
-              alt="React"
-              width={90}
-              height={90}
-            ></Image>
-            <Image
-              className="icon"
-              src={Next}
-              alt="Next"
-              width={90}
-              height={90}
-            ></Image>
-            <Image
-              className="icon"
-              src={Firebase}
-              alt="Firebase"
-              width={90}
-              height={90}
-            ></Image>
-            <Image
-              className="icon"
-              src={NodeJs}
-              alt="NodeJs"
-              width={90}
-              height={90}
-            ></Image>
-            <Image
-              className="icon"
-              src={Postgres}
-              alt="Postgres"
-              width={90}
-              height={90}
-            ></Image>
-            <Image
-              className="icon"
-              src={Github}
-              alt="Github"
-              width={90}
-              height={90}
-            ></Image>
-            <Image
-              className="icon"
-              src={Git}
-              alt="Git"
-              width={90}
-              height={90}
-            ></Image>
-            <Image
-              className="icon"
-              src={Figma}
-              alt="Figma"
-              width={90}
-              height={90}
-            ></Image>
-            <Image
-              className="icon"
-              src={TypeScript}
-              alt="TypeScript"
-              width={85}
-              height={85}
-            ></Image>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={HTML}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>HTML</span>
+            </div>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={CSS}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>CSS</span>
+            </div>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={JS}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>Javascript</span>
+            </div>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={React}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>React</span>
+            </div>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={Next}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>Next.js</span>
+            </div>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={Firebase}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>Firebase</span>
+            </div>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={NodeJs}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>Node.js</span>
+            </div>
+            <div>
+              <Image
+                className="icon"
+                src={Postgres}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>PostgreSQL</span>
+            </div>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={Github}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>Github</span>
+            </div>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={Git}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>Git</span>
+            </div>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={Figma}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>Figma</span>
+            </div>
+            <div className="tool-container">
+              <Image
+                className="icon"
+                src={TypeScript}
+                alt="HTML icon"
+                width={90}
+                height={90}
+              ></Image>
+              <span>TypeScript</span>
+            </div>
           </div>
         </section>
         <div id="projects"></div>
