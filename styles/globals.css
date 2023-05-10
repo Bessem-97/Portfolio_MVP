@@ -627,7 +627,7 @@ header {
 
   main .toolbox-grid-container {
     grid-template-columns: repeat(4, 1fr);
-    padding: 5px;
+    padding: 0 1rem 2rem 1rem;
   }
   form input[type='text'],
   form input[type='email'],
@@ -803,7 +803,10 @@ header {
   }
 
   main .toolbox-grid-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 0.8rem;
+    padding: 0.8rem;
+    padding-bottom: 2rem;
   }
   main p {
     width: 100%;
