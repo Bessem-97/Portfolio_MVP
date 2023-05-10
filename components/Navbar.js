@@ -58,7 +58,7 @@ export default function Navbar() {
     </div>
   );
 }
-
+// PREVIOUS NAVBAR CODE
 // <div className="nav-full-width">
 //   <nav className="nav-container">
 //     <div className="nav-left">
