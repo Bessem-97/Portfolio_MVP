@@ -25,7 +25,7 @@ export default function Navbar() {
           </button>
         </div>
         <ul className={isOpen ? 'mobile-links' : 'desktop-links'}>
-          <li className="hidden-list-item">
+          <li onClick={toggleMenu} className="hidden-list-item">
             <Link href="#contact">Contact me</Link>
           </li>
           <li>
@@ -39,7 +39,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1Kg5LkrDOL_fEDUsl0V1TUa62upXkjl55/view?usp=sharing"
+              href="https://drive.google.com/file/d/1b_4ol3IMjJ-r7TPb5TJQ7Fgvs7G5VFN2/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
             >
@@ -47,10 +47,10 @@ export default function Navbar() {
             </a>
           </li>
 
-          <li>
+          <li onClick={toggleMenu}>
             <Link href="#about-me">About Me</Link>
           </li>
-          <li>
+          <li onClick={toggleMenu}>
             <Link href="#projects">Projects</Link>
           </li>
         </ul>
