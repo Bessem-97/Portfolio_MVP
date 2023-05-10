@@ -25,6 +25,9 @@ export default function Navbar() {
           </button>
         </div>
         <ul className={isOpen ? 'mobile-links' : 'desktop-links'}>
+          <li className="hidden-list-item">
+            <Link href="#contact">Contact me</Link>
+          </li>
           <li>
             <a
               href="https://github.com/KieranWebDev"
@@ -43,6 +46,7 @@ export default function Navbar() {
               Resume
             </a>
           </li>
+
           <li>
             <Link href="#about-me">About Me</Link>
           </li>

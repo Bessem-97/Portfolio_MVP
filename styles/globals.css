@@ -799,6 +799,9 @@ nav .desktop-links {
   margin-top: 10px;
   transition: all 3s ease-in-out;
 }
+nav .hidden-list-item {
+  display: none;
+}
 
 @media (max-width: 700px) {
   nav .hamburger {
@@ -806,6 +809,9 @@ nav .desktop-links {
   }
   nav .name-and-contact-container a {
     display: none;
+  }
+  nav .hidden-list-item {
+    display: block;
   }
   nav {
     display: block;
@@ -824,6 +830,7 @@ nav .desktop-links {
     flex-direction: column;
     align-items: normal;
   }
+
   nav .logo-and-hamburger {
     display: flex;
     justify-content: space-between;
@@ -849,12 +856,10 @@ nav .desktop-links {
     margin: 1em 0;
   }
   nav .mobile-links a {
-    text-transform: uppercase;
     text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 300;
-    font-family: 'Josefin Sans', sans-serif;
+    color: var(--main);
+    font-size: 2rem;
+    font-weight: 800;
   }
   /* hide desktop styles */
   nav .desktop-links {
