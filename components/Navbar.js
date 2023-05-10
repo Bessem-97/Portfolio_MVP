@@ -16,26 +16,38 @@ export default function Navbar() {
     <div className="nav-container">
       <nav className={isOpen ? 'mobile-menu' : ''}>
         <div className="logo-and-hamburger">
-          <h3>Kieran Gill</h3>
+          <div className="name-and-contact-container">
+            <h3>Kieran Gill</h3>
+            <Link href="#contact">Contact me</Link>
+          </div>
           <button onClick={toggleMenu} className="hamburger">
             <Image src={isOpen ? Close : Hamburger} alt="menu button" />
           </button>
         </div>
         <ul className={isOpen ? 'mobile-links' : 'desktop-links'}>
           <li>
-            <a href="#">About</a>
+            <a
+              href="https://github.com/KieranWebDev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github Repos
+            </a>
           </li>
           <li>
-            <a href="#">Careers</a>
+            <a
+              href="https://drive.google.com/file/d/1Kg5LkrDOL_fEDUsl0V1TUa62upXkjl55/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
           </li>
           <li>
-            <a href="#">Events</a>
+            <Link href="#about-me">About Me</Link>
           </li>
           <li>
-            <a href="#">Products</a>
-          </li>
-          <li>
-            <a href="#">Support</a>
+            <Link href="#projects">Projects</Link>
           </li>
         </ul>
       </nav>
