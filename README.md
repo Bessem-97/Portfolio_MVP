@@ -9,6 +9,13 @@
 
 My main focus for this project was to get a presentable portfolio page ready in time for The School of Code’s graduation event. I tried to design a simple, clean site that I could realistically build in a short time, given the skill set that I had at the time.
 
+### Note:
+*(May 2023)*
+
+Although the website is, functional the code for this project is a bit of a mess…especially the CSS. I made the majority of this site in my free time towards the end of The School of Codes 16-week BootCamp in August 2022. My main focus was to get it complete by graduation and I didn't really give much thought to structure or readability.  After coming back a few months later to add a hamburger menu and a couple of other smaller features, I quickly realised what a mess it is. I managed to navigate the code and make the necessary adjustments, but it was a very humbling experience in the importance of writing clean and maintainable code. 
+
+"Leave the campsite better than you found it.” Having to navigate through messy code just led to me adding more messy code to the codebase as there was no discernible structure to use in the first place.  I intend to come back and clean up the code when I have some more time.  Thankfully I feel that my more recent projects are much better structured and easier to navigate.
+
  <table>
 	    <tr>
     	    <td style="padding:10px">
