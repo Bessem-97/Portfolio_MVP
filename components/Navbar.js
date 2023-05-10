@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { useState } from 'react';
 
@@ -12,31 +13,33 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   }
   return (
-    <nav className={isOpen ? 'mobile-menu' : ''}>
-      <div className="logo-and-hamburger">
-        <h3>Kieran Gill</h3>
-        <button onClick={toggleMenu} className="hamburger">
-          <img src={isOpen ? Close : Hamburger} alt="menu button" />
-        </button>
-      </div>
-      <ul className={isOpen ? 'mobile-links' : 'desktop-links'}>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Careers</a>
-        </li>
-        <li>
-          <a href="#">Events</a>
-        </li>
-        <li>
-          <a href="#">Products</a>
-        </li>
-        <li>
-          <a href="#">Support</a>
-        </li>
-      </ul>
-    </nav>
+    <div className="nav-container">
+      <nav className={isOpen ? 'mobile-menu' : ''}>
+        <div className="logo-and-hamburger">
+          <h3>Kieran Gill</h3>
+          <button onClick={toggleMenu} className="hamburger">
+            <Image src={isOpen ? Close : Hamburger} alt="menu button" />
+          </button>
+        </div>
+        <ul className={isOpen ? 'mobile-links' : 'desktop-links'}>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Events</a>
+          </li>
+          <li>
+            <a href="#">Products</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 
