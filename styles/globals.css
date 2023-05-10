@@ -150,10 +150,8 @@ a {
 /* navbar */
 .nav-container {
   position: sticky;
-  max-width: 1400px;
   margin: 0 auto;
   background-color: var(--background);
-  border-bottom: 1px solid var(--main);
   width: 100%;
   top: 0px;
   z-index: 100;
@@ -167,6 +165,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   /* padding: 1em; */
+  margin: 0 auto;
+  border-bottom: 1px solid var(--main);
+  max-width: 1400px;
 }
 nav h3 {
   margin: 0;
