@@ -102,8 +102,19 @@ export default function Main() {
         </section>
         <section className="top-section certificates">
           <h2>Certifications</h2>
-          <p>I&apos;m currently working towards earning two certificates:</p>
+          <p>Completed and in progress:</p>
+          {/* <p>I&apos;m currently working towards earning two certificates:</p> */}
           <ul>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1jqcPpRrx--Z9LoM_k6P8L7sAzBGcnJdF/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                The School of Code&apos;s 16 week Full Stack Web Development
+                Course
+              </a>
+            </li>
             <li>
               <a
                 href="https://scrimba.com/learn/frontend"
