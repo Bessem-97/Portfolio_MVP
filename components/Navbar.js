@@ -28,14 +28,8 @@ export default function Navbar() {
           <li onClick={toggleMenu} className="hidden-list-item">
             <Link href="#contact">Contact me</Link>
           </li>
-          <li>
-            <a
-              href="https://github.com/KieranWebDev"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github Repos
-            </a>
+          <li onClick={toggleMenu}>
+            <Link href="#projects">Projects</Link>
           </li>
           <li>
             <a
@@ -46,12 +40,18 @@ export default function Navbar() {
               Resume
             </a>
           </li>
+          <li>
+            <a
+              href="https://github.com/KieranWebDev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github Repos
+            </a>
+          </li>
 
           <li onClick={toggleMenu}>
             <Link href="#about-me">About Me</Link>
-          </li>
-          <li onClick={toggleMenu}>
-            <Link href="#projects">Projects</Link>
           </li>
         </ul>
       </nav>
