@@ -208,7 +208,7 @@ nav .desktop-links {
 }
 .desktop-links a:hover::after {
   content: '';
-  /* display: block; */
+
   position: absolute;
   top: 20px;
   bottom: 0px;
@@ -219,7 +219,7 @@ nav .desktop-links {
   background-color: var(--white);
   margin: 0 auto;
   margin-top: 10px;
-  transition: all 3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 nav .hidden-list-item {
   display: none;
@@ -675,10 +675,12 @@ header {
   nav.mobile-menu {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -20%;
     background-color: var(--secondary);
     height: 100vh;
-    width: 100vw;
+    width: 50%;
+    transform: translateX(40%);
+    transition: transform 0.3s;
     position: fixed;
     z-index: 100;
     display: flex;
@@ -779,6 +781,23 @@ header {
     width: 90%;
     margin: 0 auto;
   }
+
+  nav.mobile-menu {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background-color: var(--secondary);
+    height: 100vh;
+    width: 100%;
+    transform: translateX(100%);
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+  }
+
   .main-grid-container {
     width: 95%;
     gap: 0;
