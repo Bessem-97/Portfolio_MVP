@@ -17,6 +17,7 @@ export default function Card({
           alt="project"
           width={800}
           height={400}
+          priority={true}
         ></Image>
       </div>
       <div className="card-bottom-standard">

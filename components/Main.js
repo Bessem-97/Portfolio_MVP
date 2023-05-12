@@ -76,6 +76,7 @@ export default function Main() {
               alt="shirt-pic"
               height={200}
               width={200}
+              priority={true}
             />
             <Image
               className="profile-pics"
@@ -83,6 +84,7 @@ export default function Main() {
               alt="shirt-pic"
               height={200}
               width={200}
+              priority={true}
             />
             <Image
               className="profile-pics"
@@ -90,6 +92,7 @@ export default function Main() {
               alt="shirt-pic"
               height={200}
               width={200}
+              priority={true}
             />
             <Image
               className="profile-pics"
@@ -97,6 +100,7 @@ export default function Main() {
               alt="shirt-pic"
               height={200}
               width={200}
+              priority={true}
             />
           </div>
         </section>
