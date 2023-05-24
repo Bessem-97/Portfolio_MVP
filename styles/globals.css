@@ -196,7 +196,8 @@ nav .hamburger {
   display: none;
 }
 
-nav .desktop-links {
+nav .desktop-links,
+nav .mobile-links {
   display: flex;
   list-style: none;
   gap: 2em;
