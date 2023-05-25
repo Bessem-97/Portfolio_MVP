@@ -111,7 +111,7 @@ export default function Main() {
           <ul>
             <li>
               <a
-                href="https://drive.google.com/file/d/1jqcPpRrx--Z9LoM_k6P8L7sAzBGcnJdF/view?usp=sharing"
+                href="https://drive.google.com/file/d/1pt9kmdXJCeOUMX4Z2RM3xWQqiqYqXgzp/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
