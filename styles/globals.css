@@ -751,6 +751,9 @@ header {
   main .toolbox-grid-container {
     grid-template-columns: repeat(5, 1fr);
   }
+  .pic-grid {
+    gap: 1rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -884,5 +887,8 @@ header {
   }
   .contact-me-info p {
     width: 100%;
+  }
+  .pic-grid {
+    gap: 1rem;
   }
 }
