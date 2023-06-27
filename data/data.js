@@ -8,9 +8,18 @@ import Untrodden from '../Images/port-pics/untrodden.PNG';
 import formComp from '../Images/port-pics/screenshot-form.png';
 import GithubUserSearchApp from '../Images/port-pics/darkmode-screenshot.png';
 import SunnySide from '../Images/port-pics/sunyside-pic.png';
-import timeTrackingDash from '../Images/port-pics/time-tracker.png';
+// import timeTrackingDash from '../Images/port-pics/time-tracker';
+import ThePlanets from '../Images/port-pics/ThePlanets.png';
 
 const projects = [
+  {
+    image: ThePlanets,
+    projectTitle: 'The Planets',
+    description:
+      'A full-stack React App that enables users to explore and learn about the planets in our Solar System. Built with React, React Router, Styled Components Framer Motion and Superbase for the back-end. This responsive application offers an immersive experience, combining dynamic styling, animations, and a reliable backend database.',
+    linkToSite: `https://kieran-gill-planet-fact-site.vercel.app/`,
+    linkToRepo: `https://github.com/KieranWebDev/PlanetFactSite`,
+  },
   {
     image: Untrodden,
     projectTitle: 'Untrodden',
@@ -35,14 +44,14 @@ const projects = [
     linkToSite: `https://kieran-gill-sunny-side-landing-page.vercel.app/`,
     linkToRepo: `https://github.com/KieranWebDev/FEMentors--SunnySide-landing-Page/tree/main`,
   },
-  {
-    image: timeTrackingDash,
-    projectTitle: 'Time tracking dashboard',
-    description:
-      'A fully responsive time tracking dashboard for a fictional app. A very simple project that I initially built in Vanilla JS and then rebuilt in React. It was a good stepping stone project, that helped me grasp the fundamentals of React as well as some good practice with CSS grid.',
-    linkToSite: `https://kieran-gill-time-tracking-dashboard-react.vercel.app/`,
-    linkToRepo: `https://github.com/KieranWebDev/time-tracking-dashboard-react`,
-  },
+  // {
+  //   image: timeTrackingDash,
+  //   projectTitle: 'Time tracking dashboard',
+  //   description:
+  //     'A fully responsive time tracking dashboard for a fictional app. A very simple project that I initially built in Vanilla JS and then rebuilt in React. It was a good stepping stone project, that helped me grasp the fundamentals of React as well as some good practice with CSS grid.',
+  //   linkToSite: `https://kieran-gill-time-tracking-dashboard-react.vercel.app/`,
+  //   linkToRepo: `https://github.com/KieranWebDev/time-tracking-dashboard-react`,
+  // },
 
   {
     image: Portfolio,
