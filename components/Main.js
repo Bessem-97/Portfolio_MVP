@@ -116,7 +116,7 @@ export default function Main() {
                 rel="noreferrer"
               >
                 The School of Code&apos;s 16 week Full Stack Web Development
-                Course
+                Bootcamp
               </a>
             </li>
             <li>
