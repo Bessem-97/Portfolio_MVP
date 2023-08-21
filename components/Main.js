@@ -127,7 +127,7 @@ export default function Main() {
               >
                 Scrimba&apos;s Frontend Developer Career Path Certificate
               </a>{' '}
-              (75% completed)
+              (90% completed)
             </li>
             <li>
               <a
