@@ -50,7 +50,7 @@ export default function Main() {
           <div className="about-us-btn-container">
             <button className="btn-main">
               <a
-                href="https://drive.google.com/file/d/1xdQJygcplqkE6tq0k8sehwSrM8GZ66QE/view?usp=sharing"
+                href="https://drive.google.com/file/d/1NbAhk2amKjC3DtMW3My9xB0RLSW6Q275/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -111,6 +111,15 @@ export default function Main() {
           <ul>
             <li>
               <a
+                href="https://scrimba.com/certificate/ux7qwWun/gfrontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Scrimba&apos;s Frontend Developer Career Path Certificate
+              </a>{' '}
+            </li>
+            <li>
+              <a
                 href="https://drive.google.com/file/d/1pt9kmdXJCeOUMX4Z2RM3xWQqiqYqXgzp/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
@@ -118,16 +127,6 @@ export default function Main() {
                 The School of Code&apos;s 16 week Full Stack Web Development
                 Bootcamp
               </a>
-            </li>
-            <li>
-              <a
-                href="https://scrimba.com/learn/frontend"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Scrimba&apos;s Frontend Developer Career Path Certificate
-              </a>{' '}
-              (90% completed)
             </li>
             <li>
               <a
