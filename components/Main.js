@@ -50,7 +50,7 @@ export default function Main() {
           <div className="about-us-btn-container">
             <button className="btn-main">
               <a
-                href="https://drive.google.com/file/d/1NbAhk2amKjC3DtMW3My9xB0RLSW6Q275/view?usp=sharing"
+                href="https://drive.google.com/file/d/15RnjY507uYFbueHRdEmRD6pGOIwu5EW8/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
