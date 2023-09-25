@@ -11,14 +11,16 @@ import SunnySide from '../Images/port-pics/sunyside-pic.png';
 // import timeTrackingDash from '../Images/port-pics/time-tracker';
 import ThePlanets from '../Images/port-pics/ThePlanets.png';
 
+// 'A full-stack React App built in Typescript that enables users to explore and learn about the planets in our Solar System. Built with React, React Router, Styled Components Framer Motion and Superbase for the back-end. This responsive application offers an immersive experience, combining dynamic styling, animations, and a reliable backend database.',
+
 const projects = [
   {
     image: ThePlanets,
     projectTitle: 'The Planets',
     description:
-      'A full-stack React App that enables users to explore and learn about the planets in our Solar System. Built with React, React Router, Styled Components Framer Motion and Superbase for the back-end. This responsive application offers an immersive experience, combining dynamic styling, animations, and a reliable backend database.',
-    linkToSite: `https://kieran-gill-planet-fact-site.vercel.app/`,
-    linkToRepo: `https://github.com/KieranWebDev/PlanetFactSite`,
+      'A fully responsive Full-stack single page React application built with TypeScript that allows users to seamlessly explore detailed profiles of each planet in our solar system. Leveraging React Router for SPA navigation, Framer Motion for animated page transitions, and Styled Components. The frontend consumes data from a Supabase backend via API calls for scalable and reliable data storage.',
+    linkToSite: `https://kieran-gill-the-planets-ts.vercel.app/`,
+    linkToRepo: `https://github.com/KieranWebDev/ThePlanets-TypeScript`,
   },
   {
     image: Untrodden,
@@ -32,9 +34,9 @@ const projects = [
     image: GithubUserSearchApp,
     projectTitle: 'Github User Search App',
     description:
-      'A React-based web application that allows users to search for GitHub users by username and view their profiles. The app leverages the GitHub API to fetch user data and includes responsive design, error handling, and a dark mode theme feature. ',
-    linkToSite: `https://kieran-gill-github-user-search-app-vite.vercel.app/`,
-    linkToRepo: `https://github.com/KieranWebDev/githubUserSearchApp-vite`,
+      'A React-based web application built with TypeScript that allows users to search for GitHub users by username and view their profiles. The app leverages the GitHub API to fetch user data and includes responsive design, error handling, and a dark mode theme feature. ',
+    linkToSite: `https://kieran-gill-devfinder-ts.vercel.app/`,
+    linkToRepo: `https://github.com/KieranWebDev/Devfinder-TS`,
   },
   {
     image: SunnySide,
