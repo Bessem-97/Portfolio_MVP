@@ -5,17 +5,17 @@
 
 
 <h2 align="center">
-	View The Website <a href='https://kieran-gill-portfolio.netlify.app/'>here.</a>
+	View The Website <a href='https://bessem-portfolio.netlify.app/'>here.</a>
 </h2>
 
 ## Project Details 
 
-*(August 2022)*
+
 
 My main focus for this project was to get a presentable portfolio page ready in time for The School of Code’s graduation event. I tried to design a simple, clean site that I could realistically build in a short time, given the skill set that I had at the time.
 
 ### Note:
-*(May 2023)*
+
 
 Although the website is functional the code for this project is a bit of a mess…especially the CSS. I made the majority of this site in my free time towards the end of The School of Codes 16-week BootCamp in August 2022. My main focus was to get it complete by graduation and I didn't really give much thought to structure or readability.  After coming back a few months later to add a hamburger menu and a couple of other smaller features, I quickly realised what a mess it is. I managed to navigate the code and make the necessary adjustments, but it was a very humbling experience in the importance of writing clean and maintainable code. 
 
@@ -53,7 +53,7 @@ Although the website is functional the code for this project is a bit of a mess�
 - I then went on to create Low-Fidelity wireframes in Miro and High Fidelity Wireframes in Figma. The links to which can be found below.
 
 - [Low-Fidelity Designs using Miro](https://miro.com/app/board/uXjVO1q53eQ=/?share_link_id=691854603282)
-- [High-Fidelity Designs using Figma](https://www.figma.com/file/9LT6XTj9fzhGH4sG8XyQwQ/Kieran-Gill---Personal-website?node-id=0%3A1)
+- [High-Fidelity Designs using Figma](https://www.figma.com/file/9LT6XTj9fzhGH4sG8XyQwQ/bessem---Personal-website?node-id=0%3A1)
 
  <table>
 	    <tr>
